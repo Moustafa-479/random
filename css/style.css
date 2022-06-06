@@ -1,6 +1,10 @@
 :root {
   --p-padding: 0px;
 }
+::selection {
+  color: inherit;
+  background: none;
+}
 .text-main {
   color: var(--m-color) !important;
 }
