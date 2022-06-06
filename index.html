@@ -1,1237 +1,1951 @@
 <!DOCTYPE html>
 <html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Random | Store</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Cairo:wght@300;400;700&family=Open+Sans:wght@400;700&family=Roboto:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Cairo:wght@300;400;700&family=Dancing+Script:wght@700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="css/all.min.css" />
+    <link rel="stylesheet" href="css/bootstrap.min.css" />
+    <link rel="stylesheet" href="css/bootstrap.min.css.map" />
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
 
-<head>
-	<meta charset="UTF-8">
-	<meta http-equiv="X-UA-Compatible" content="IE=edge">
-	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<title>Random | Store</title>
-		<link rel="preconnect" href="https://fonts.googleapis.com" />
-		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-		<link
-			href="https://fonts.googleapis.com/css2?family=Cairo:wght@300;400;700&family=Open+Sans:wght@400;700&family=Roboto:wght@400;700&display=swap"
-			rel="stylesheet" />
-		<link rel="preconnect" href="https://fonts.googleapis.com" />
-		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-		<link href="https://fonts.googleapis.com/css2?family=Cairo:wght@300;400;700&family=Dancing+Script:wght@700&display=swap"
-			rel="stylesheet" />
-		<link rel="stylesheet" href="css/all.min.css" />
-		<link rel="stylesheet" href="css/bootstrap.min.css" />
-		<link rel="stylesheet" href="css/bootstrap.min.css.map" />
-		<link rel="stylesheet" href="css/style.css" />
-</head>
+  <body class="position-relative">
+    <div class="setting d-none">
+      <div class="position-relative parent">
+        <div class="position-absolute content">
+          <div
+            class="position-relative bg-dark p-3 box d-flex flex-column justify-content-center wrap"
+          >
+            <ul class="w-100 row flex-wrap mt-3 mb-3">
+              <li
+                class="col-3 light-green d-flex justify-content-center align-items-center"
+              >
+                <div></div>
+              </li>
+              <li
+                class="col-3 pink d-flex justify-content-center align-items-center"
+              >
+                <div></div>
+              </li>
+              <li
+                class="col-3 light-blue d-flex justify-content-center align-items-center"
+              >
+                <div></div>
+              </li>
+              <li
+                class="col-3 yellow d-flex justify-content-center align-items-center"
+              >
+                <div></div>
+              </li>
+              <li
+                class="col-3 red d-flex justify-content-center align-items-center"
+              >
+                <div></div>
+              </li>
+              <li
+                class="col-3 orange d-flex justify-content-center align-items-center"
+              >
+                <div></div>
+              </li>
+              <li
+                class="col-3 green d-flex justify-content-center align-items-center"
+              >
+                <div></div>
+              </li>
+              <li
+                class="col-3 dark-blue d-flex justify-content-center align-items-center"
+              >
+                <div></div>
+              </li>
+              <div class="icon bg-dark">
+                <i class="fa-solid fa-gear text-main"></i>
+              </div>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="header bg-dark sticky-top p-2">
+      <div class="container">
+        <nav class="navbar navbar-expand-xl">
+          <div class="container">
+            <a class="navbar-brand text-white p-2" href="#">RANDOM STORE</a>
+            <button
+              class="navbar-toggler"
+              type="button"
+              data-bs-toggle="collapse"
+              data-bs-target="#navbarSupportedContent"
+              aria-controls="navbarSupportedContent"
+              aria-expanded="false"
+              aria-label="Toggle navigation"
+            >
+              <i class="fa-solid fa-bars text-white"></i>
+            </button>
+            <div
+              class="collapse navbar-collapse pt-3 pt-md-0"
+              id="navbarSupportedContent"
+            >
+              <ul class="navbar-nav mb-2 mb-xl-0 ms-auto">
+                <li class="nav-item p-2 active">
+                  <a class="nav-link" aria-current="page" href="#home">Home</a>
+                </li>
+                <li class="nav-item p-2">
+                  <a class="nav-link" href="#service">Service</a>
+                </li>
+                <li class="nav-item p-2">
+                  <a class="nav-link" href="#product">Products</a>
+                </li>
+                <li class="nav-item p-2">
+                  <a class="nav-link" href="#about">About Us</a>
+                </li>
+                <li class="nav-item p-2">
+                  <a class="nav-link" href="#contact">Contact Us</a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </nav>
+      </div>
+    </div>
+    <div class="landing position-relative d-flex" id="home">
+      <div class="overlay position-absolute top-0 bg-h left-0"></div>
+      <div
+        class="container d-flex flex-column justify-content-center align-items-center"
+      >
+        <div class="box text-center position-relative">
+          <h2 class="fw-bold text-uppercase">Welcom On Random Store</h2>
+          <p class="text-white-50 fs-6 mt-5">
+            We Have Any Thing Your Computer Ever Need It And We Have A Laptops
+            And Computers And MacBooks And Phones And Tablets And Ipads
+          </p>
+        </div>
+      </div>
+    </div>
 
-<body class="position-relative">
-	<div class="setting d-none">
-		<div class="position-relative parent">
-			<div class="position-absolute content">
-				<div class="position-relative bg-dark p-3 box d-flex flex-column justify-content-center wrap">
-					<ul class="w-100 row flex-wrap mt-3 mb-3">
-						<li class="col-3 light-green d-flex justify-content-center align-items-center">
-							<div></div>
-						</li>
-						<li class="col-3 pink d-flex justify-content-center align-items-center">
-							<div></div>
-						</li>
-						<li class="col-3 light-blue d-flex justify-content-center align-items-center">
-							<div></div>
-						</li>
-						<li class="col-3 yellow d-flex justify-content-center align-items-center">
-							<div></div>
-						</li>
-						<li class="col-3 red d-flex justify-content-center align-items-center">
-							<div></div>
-						</li>
-						<li class="col-3 orange d-flex justify-content-center align-items-center">
-							<div></div>
-						</li>
-						<li class="col-3 green d-flex justify-content-center align-items-center">
-							<div></div>
-						</li>
-						<li class="col-3 dark-blue d-flex justify-content-center align-items-center">
-							<div></div>
-						</li>
-						<div class="icon bg-dark">
-							<i class="fa-solid fa-gear text-main"></i>
-						</div>
-					</ul>
-				</div>
-			</div>
-		</div>
-	</div>
-	<div class="header bg-dark sticky-top p-2">
-		<div class="container">
-			<nav class="navbar navbar-expand-xl">
-				<div class="container">
-					<a class="navbar-brand text-white p-2" href="#">RANDOM STORE</a>
-					<button class="navbar-toggler" type="button" data-bs-toggle="collapse"
-						data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
-						aria-expanded="false" aria-label="Toggle navigation">
-						<i class="fa-solid fa-bars text-white"></i>
-					</button>
-					<div class="collapse navbar-collapse pt-3 pt-md-0" id="navbarSupportedContent">
-						<ul class="navbar-nav mb-2 mb-xl-0 ms-auto">
-							<li class="nav-item p-2 active">
-								<a class="nav-link" aria-current="page" href="#home">Home</a>
-							</li>
-							<li class="nav-item p-2">
-								<a class="nav-link" href="#service">Service</a>
-							</li>
-							<li class="nav-item p-2">
-								<a class="nav-link" href="#product">Products</a>
-							</li>
-							<li class="nav-item p-2">
-								<a class="nav-link" href="#about">About Us</a>
-							</li>
-							<li class="nav-item p-2">
-								<a class="nav-link" href="#contact">Contact Us</a>
-							</li>
-						</ul>
-					</div>
-				</div>
-			</nav>
-		</div>
-	</div>
-	<div class="landing position-relative d-flex" id="home">
-		<div class="overlay position-absolute top-0 bg-h left-0"></div>
-		<div class="container d-flex flex-column justify-content-center align-items-center">
-			<div class="box text-center position-relative">
-				<h2 class="fw-bold text-uppercase">Welcom On Random Store</h2>
-				<p class="text-white-50 fs-6 mt-5">
-					We Have Any Thing Your Computer Ever Need It And We Have A Laptops
-					And Computers And MacBooks And Phones And Tablets And Ipads
-				</p>
-			</div>
-		</div>
-	</div>
-
-	<div class="service mt-4 mb-5" id="service">
-		<div class="container">
-			<div class="special-title m-auto w-fit text-center pb-4 pt-4 position-relative">
-				<h2 class="m-auto text-uppercase text-main mb-3">Services</h2>
-				<p class="m-auto text-black-50">
-					We Have Best Services Batter Than Our Compatitor
-				</p>
-			</div>
-			<div class="row mt-5 mb-5 pt-5">
-				<div class="col-12 col-md-4">
-					<div class="box text-center">
-						<div class="icon text-center mb-5">
-							<i class="fa-solid fa-screwdriver-wrench text-s"></i>
-						</div>
-						<h3 class="uppercase text-dark fw-bold uppercase text-main mb-4">
-							Maitenace
-						</h3>
-						<p class="text-black-50">
-							We Have Best Workers And Engineers Work To Repair Your PC And
-							Your Phones Or Tablets
-						</p>
-					</div>
-				</div>
-				<div class="col-12 col-md-4">
-					<div class="box text-center">
-						<div class="icon text-center mb-5">
-							<i class="fa-brands fa-apple text-s"></i>
-						</div>
-						<h3 class="uppercase text-dark fw-bold uppercase text-main mb-4">
-							Brands
-						</h3>
-						<p class="text-black-50">
-							We Have Evry Phones And Laptops And PC And Smart Screens And
-							Tablets And Ipads From Evry Brands
-						</p>
-					</div>
-				</div>
-				<div class="col-12 col-md-4">
-					<div class="box text-center">
-						<div class="icon text-center mb-5">
-							<i class="fa-solid fa-user-gear text-s"></i>
-						</div>
-						<h3 class="uppercase text-dark fw-bold uppercase text-main mb-4">
-							Customers Services
-						</h3>
-						<p class="text-black-50">
-							We Have The Fastest Customers Services And The Fastest To
-							Descover The Problem And Solve It
-						</p>
-					</div>
-				</div>
-			</div>
-		</div>
-	</div>
-	<div class="product bg-light pt-5 mt-5 mb-5" id="product">
-		<div class="container">
-			<div class="special-title m-auto w-fit text-center pb-4 pt-4 position-relative">
-				<h2 class="m-auto text-uppercase text-main mb-3">Products</h2>
-				<p class="m-auto text-black-50">
-					Products That We Have Phones & Labtobs & Computers And Tablets
-				</p>
-			</div>
-			<ul
-				class="navbar-nav mt-5 mb-5 m-auto p-3 d-flex flex-column flex-md-row w-75 justify-content-center align-items-center gap-4">
-				<li
-					class="nav-items pt-3 pb-3 ps-3 pe-3 rounded bg-dark text-main uppercase all w-100 text-center active">
-					All
-				</li>
-				<li class="nav-items pt-3 pb-3 text-center w-100 ps-3 pe-3 rounded bg-dark text-main phones uppercase">
-					Phones
-				</li>
-				<li class="nav-items pt-3 pb-3 text-center w-100 ps-3 pe-3 rounded bg-dark text-main laptops uppercase">
-					Laptops
-				</li>
-				<li
-					class="nav-items pt-3 pb-3 text-center w-100 ps-3 pe-3 rounded bg-dark text-main computers uppercase">
-					Computers
-				</li>
-				<li class="nav-items pt-3 pb-3 text-center w-100 ps-3 pe-3 rounded bg-dark text-main tablets uppercase">
-					Tablets
-				</li>
-			</ul>
-		</div>
-		<div class="space position-relative">
-			<div class="position-absolute d-none d-xl-block top-50 right">
-				<i class="fa-solid fa-chevron-right"></i>
-			</div>
-			<div class="position-absolute d-none d-xl-block top-50 left">
-				<i class="fa-solid fa-chevron-left"></i>
-			</div>
-			<div class="container">
-				<div class="all pt-5 pb-5 d-block devices opacity-100">
-					<div class="row">
-						<div class="col-12 col-xl-3 overflow-hidden box position-relative">
-							<img src="img/iphone13pro.jpg" class="img-fluid m-auto" alt="" />
-							<div
-								class="text position-absolute bg-h top-100 start-0 d-flex h-100 text-center w-100 p-3 justify-content-center align-items-center flex-column">
-								<h2 class="text-main uppercase mt-2">iphone13</h2>
-								<p class="text-white-50">
-									A dramatically more powerful camera system. A display so
-									responsive, every interaction feels new again. The world’s
-									fastest smartphone chip.
-									<a target="_blank" href="https://www.apple.com/iphone-13-pro/"
-										class="d-inline text-main">Learn More.</a>
-								</p>
-								<div class="price d-flex flex-row justify-content-between w-100 align-items-center">
-									<span class="ms-2 text-white fs-3 fw-bold">$999</span>
-									<span
-										class="me-2 rounded bg-main text-white pt-1 pb-1 ps-3 pe-3 d-flex align-items-center fw-bold uppercase buy-btn"><a
-											target="_blank"
-											href="https://www.apple.com/shop/buy-iphone/iphone-13-pro">Buy
-											Now</a></span>
-								</div>
-							</div>
-						</div>
-						<div
-							class="col-12 col-xl-3 overflow-hidden box position-relative d-flex justify-content-center align-items-center">
-							<img src="img/findX.jpg" class="img-fluid m-auto" alt="" />
-							<div
-								class="text position-absolute bg-h top-100 start-0 d-flex h-100 text-center w-100 p-3 justify-content-center align-items-center flex-column">
-								<h2 class="text-main uppercase mt-2">Oppo find X</h2>
-								<p class="text-white-50">
-									Panoramic Arc Screen A visual revolution OPPO Find X is the
-									world’s first panoramic designed phone,
-									<a target="_blank" href="https://www.oppo.com/en/smartphones/series-find-x/find-x/"
-										class="d-inline text-main">Learn More.</a>
-								</p>
-								<div class="price d-flex flex-row justify-content-between w-100 align-items-center">
-									<span class="ms-2 text-white fs-3 fw-bold">$668</span>
-									<span
-										class="me-2 rounded bg-main text-white pt-1 pb-1 ps-3 pe-3 d-flex align-items-center fw-bold uppercase buy-btn"><a
-											target="_blank"
-											href="https://www.amazon.com/dp/B07K5TCHB1?tag=gsmarena093-20&linkCode=osi&th=1&psc=1">Buy
-											Now</a></span>
-								</div>
-							</div>
-						</div>
-						<div class="col-12 col-xl-3 overflow-hidden box position-relative">
-							<img src="img/MacBook-Pro.jpg" class="img-fluid m-auto" alt="" />
-							<div
-								class="text position-absolute bg-h top-100 start-0 d-flex h-100 text-center w-100 p-3 justify-content-center align-items-center flex-column">
-								<h2 class="text-main mt-2">MacBook Pro</h2>
-								<p class="text-white-50">
-									Supercharged for pros. The most powerful MacBook Pro ever is
-									here. With the blazing-fast M1 Pro or M1 Max chip
-									<a target="_blank" href="https://www.apple.com/macbook-pro-14-and-16/"
-										class="d-inline text-main">Learn More.</a>
-								</p>
-								<div class="price d-flex flex-row justify-content-between w-100 align-items-center">
-									<span class="ms-2 text-white fs-3 fw-bold">$1199</span>
-									<span
-										class="me-2 rounded bg-main text-white pt-1 pb-1 ps-3 pe-3 d-flex align-items-center fw-bold uppercase buy-btn"><a
-											target="_blank"
-											href="https://www.apple.com/shop/buy-mac/macbook-pro/14-inch">Buy
-											Now</a></span>
-								</div>
-							</div>
-						</div>
-						<div class="col-12 col-xl-3 overflow-hidden box position-relative">
-							<img src="img/MateBook-X-Pro.jpg" class="img-fluid m-auto" alt="" />
-							<div
-								class="text position-absolute bg-h top-100 start-0 d-flex h-100 text-center w-100 p-3 justify-content-center align-items-center flex-column">
-								<h2 class="text-main mt-2">MateBook Pro</h2>
-								<p class="text-white-50">
-									Set the screen back easily with seamless keyboard adjustment
-									for the perfect an
-									<a target="_blank" href="https://consumer.huawei.com/eg-en/laptops/matebook-e-2022/"
-										class="d-inline text-main">Learn More.</a>
-								</p>
-								<div class="price d-flex flex-row justify-content-between w-100 align-items-center">
-									<span class="ms-2 text-white fs-3 fw-bold">$1239</span>
-									<span
-										class="me-2 rounded bg-main text-white pt-1 pb-1 ps-3 pe-3 d-flex align-items-center fw-bold uppercase buy-btn"><a
-											target="_blank"
-											href="https://consumer.huawei.com/eg-en/laptops/matebook-e-2022/buy//">Buy
-											Now</a></span>
-								</div>
-							</div>
-						</div>
-						<div
-							class="col-12 col-xl-3 overflow-hidden box position-relative d-flex justify-content-center align-items-center">
-							<img src="img/pc-3.jpg" class="img-fluid m-auto" alt="" />
-							<div
-								class="text position-absolute bg-h top-100 start-0 d-flex h-100 text-center w-100 p-3 justify-content-center align-items-center flex-column">
-								<h2 class="text-main mt-2">Heigh PC</h2>
-								<p class="text-white-50">
-									Thermaltake LCGS Avalanche 360T AIO Liquid Cooled Gaming PC
-									(AMD Ryzen ™ 5 5600X 6 -core،
-									<a target="_blank"
-										href="https://www.ubuy.com.eg/ar/product/4L0BFP41C-thermaltake-lcgs-avalanche-360t-aio-liquid-cooled-gaming-pc-amd-ryzen-5-5600x-6-core-ddr4-3600mhz-16gb-rgb-memory-nvidia-geforce-rtx-3060"
-										class="d-inline text-main">Learn More.</a>
-								</p>
-								<div class="price d-flex flex-row justify-content-between w-100 align-items-center">
-									<span class="ms-2 text-white fs-3 fw-bold">$1671</span>
-									<span
-										class="me-2 rounded bg-main text-white pt-1 pb-1 ps-3 pe-3 d-flex align-items-center fw-bold uppercase buy-btn"><a
-											target="_blank"
-											href="https://www.ubuy.com.eg/ar/product/4L0BFP41C-thermaltake-lcgs-avalanche-360t-aio-liquid-cooled-gaming-pc-amd-ryzen-5-5600x-6-core-ddr4-3600mhz-16gb-rgb-memory-nvidia-geforce-rtx-3060">Buy
-											Now</a></span>
-								</div>
-							</div>
-						</div>
-						<div
-							class="col-12 col-xl-3 overflow-hidden box position-relative d-flex justify-content-center align-items-center">
-							<img src="img/pc-6.jpg" class="img-fluid m-auto" alt="" />
-							<div
-								class="text position-absolute bg-h top-100 start-0 d-flex h-100 text-center w-100 p-3 justify-content-center align-items-center flex-column">
-								<h2 class="text-main mt-2">Heigh PC</h2>
-								<p class="text-white-50">
-									Skytech Azure Gaming PC Desktop - AMD Ryzen 5 3600 3.6GHz ،
-									RTX 3070 8GB ، 16
-									<a target="_blank"
-										href="https://www.ubuy.com.eg/ar/product/1GEIDSU6S-skytech-azure-gaming-pc-desktop-amd-ryzen-5-3600-3-60-ghz-rtx-3070-8-gb-16-gb-ddr4-3000-1-tb-nvme-ssd-b450-motherboard-650w-gold-psu-windows"
-										class="d-inline text-main">Learn More.</a>
-								</p>
-								<div class="price d-flex flex-row justify-content-between w-100 align-items-center">
-									<span class="ms-2 text-white fs-3 fw-bold">$2420.29</span>
-									<span
-										class="me-2 rounded bg-main text-white pt-1 pb-1 ps-3 pe-3 d-flex align-items-center fw-bold uppercase buy-btn"><a
-											target="_blank"
-											href="https://www.ubuy.com.eg/ar/product/1GEIDSU6S-skytech-azure-gaming-pc-desktop-amd-ryzen-5-3600-3-60-ghz-rtx-3070-8-gb-16-gb-ddr4-3000-1-tb-nvme-ssd-b450-motherboard-650w-gold-psu-windows">Buy
-											Now</a></span>
-								</div>
-							</div>
-						</div>
-						<div
-							class="col-12 col-xl-3 overflow-hidden box position-relative d-flex justify-content-center align-items-center">
-							<img src="img/Ipad-Pro.jpg" class="img-fluid m-auto" alt="" />
-							<div
-								class="text position-absolute bg-h top-100 start-0 d-flex h-100 text-center w-100 p-3 justify-content-center align-items-center flex-column">
-								<h2 class="text-main mt-2 text-uppercase">Ipad pro 2021</h2>
-								<p class="text-white-50">
-									The ultimate iPad experience. Now with breakthrough M1
-									performance, a breathtaking XDR display,
-									<a target="_blank" href="https://www.apple.com/ipad-pro/"
-										class="d-inline text-main">Learn More.</a>
-								</p>
-								<div class="price d-flex flex-row justify-content-between w-100 align-items-center">
-									<span class="ms-2 text-white fs-3 fw-bold">$799.99</span>
-									<span
-										class="me-2 rounded bg-main text-white pt-1 pb-1 ps-3 pe-3 d-flex align-items-center fw-bold uppercase buy-btn"><a
-											target="_blank" href="https://www.apple.com/shop/buy-ipad/ipad-pro">Buy
-											Now</a></span>
-								</div>
-							</div>
-						</div>
-						<div
-							class="col-12 col-xl-3 overflow-hidden box position-relative d-flex justify-content-center align-items-center">
-							<img src="img/Huawei-MatePad-pro.jpg" class="img-fluid m-auto" alt="" />
-							<div
-								class="text position-absolute bg-h top-100 start-0 d-flex h-100 text-center w-100 p-3 justify-content-center align-items-center flex-column">
-								<h2 class="text-main mt-2">MatePad PRO</h2>
-								<p class="text-white-50">
-									Inspirations from Nature Capturing beautiful colours from
-									nature, HUAWEI MatePad Pro 5G comes in
-									<a target="_blank" href="https://consumer.huawei.com/en/tablets/matepad-pro-5g/"
-										class="d-inline text-main">Learn More.</a>
-								</p>
-								<div class="price d-flex flex-row justify-content-between w-100 align-items-center">
-									<span class="ms-2 text-white fs-3 fw-bold">$1329</span>
-									<span
-										class="me-2 rounded bg-main text-white pt-1 pb-1 ps-3 pe-3 d-flex align-items-center fw-bold uppercase buy-btn"><a
-											target="_blank"
-											href="https://www.amazon.com/Huawei-MatePad-10-8-inches-Display-128GB/dp/B083MZ9NKF">Buy
-											Now</a></span>
-								</div>
-							</div>
-						</div>
-					</div>
-				</div>
-				<div class="phones pt-5 pb-5 d-none devices">
-					<div class="row">
-						<div class="col-12 col-xl-3 overflow-hidden box position-relative">
-							<img src="img/iphone12.JPG" class="img-fluid m-auto" alt="" />
-							<div
-								class="text position-absolute bg-h top-100 start-0 d-flex h-100 text-center w-100 p-3 justify-content-center align-items-center flex-column">
-								<h2 class="text-main uppercase mt-2">iphone12</h2>
-								<p class="text-white-50">
-									A superpowerful chip. 5G speed. An advanced dual‑camera
-									system. A Ceramic Shield front that's tougher than any
-									smartphone
-									<a target="_blank" href="https://www.apple.com/iphone-12/key-features/"
-										class="d-inline text-main">Learn More.</a>
-								</p>
-								<div class="price d-flex flex-row justify-content-between w-100 align-items-center">
-									<span class="ms-2 text-white fs-3 fw-bold">$599</span>
-									<span
-										class="me-2 rounded bg-main text-white pt-1 pb-1 ps-3 pe-3 d-flex align-items-center fw-bold uppercase buy-btn"><a
-											target="_blank" href="https://www.apple.com/shop/buy-iphone/iphone-12">Buy
-											Now</a></span>
-								</div>
-							</div>
-						</div>
-						<div class="col-12 col-xl-3 overflow-hidden box position-relative">
-							<img src="img/iphone12pro.jpg" class="img-fluid m-auto" alt="" />
-							<div
-								class="text position-absolute bg-h top-100 start-0 d-flex h-100 text-center w-100 p-3 justify-content-center align-items-center flex-column">
-								<h2 class="text-main uppercase mt-2">iphone12 Pro</h2>
-								<p class="text-white-50">
-									A dramatically more powerful camera system. A display so
-									responsive, every interaction feels new again. The world’s
-									fastest smartphone chip.<a target="_blank"
-										href="https://www.apple.com/iphone-12-pro/" class="d-inline text-main">Learn
-										More.</a>
-								</p>
-								<div class="price d-flex flex-row justify-content-between w-100 align-items-center">
-									<span class="ms-2 text-white fs-3 fw-bold">$809</span>
-									<span
-										class="me-2 rounded bg-main text-white pt-1 pb-1 ps-3 pe-3 d-flex align-items-center fw-bold uppercase buy-btn"><a
-											target="_blank"
-											href="https://www.amazon.com/Apple-iPhone-12-Pro-Pacific/dp/B09JFNMBWL/ref=sr_1_1?keywords=iphone+12+pro&qid=1653321078&sr=8-1">Buy
-											Now</a></span>
-								</div>
-							</div>
-						</div>
-						<div
-							class="col-12 col-xl-3 overflow-hidden box position-relative d-flex justify-content-center align-items-center">
-							<img src="img/iphone13.jpg" class="img-fluid m-auto" alt="" />
-							<div
-								class="text position-absolute bg-h top-100 start-0 d-flex h-100 text-center w-100 p-3 justify-content-center align-items-center flex-column">
-								<h2 class="text-main uppercase mt-2">iphone13</h2>
-								<p class="text-white-50">
-									Our most advanced dual‑camera system ever. Durability that’s
-									front and center. And edge to edge. A lightning-fast chip
-									that speeds up everything you do.
-									<a target="_blank" href="https://www.apple.com/iphone-13/"
-										class="d-inline text-main">Learn More.</a>
-								</p>
-								<div class="price d-flex flex-row justify-content-between w-100 align-items-center">
-									<span class="ms-2 text-white fs-3 fw-bold">$699</span>
-									<span
-										class="me-2 rounded bg-main text-white pt-1 pb-1 ps-3 pe-3 d-flex align-items-center fw-bold uppercase buy-btn"><a
-											target="_blank" href="https://www.apple.com/iphone-13/">Buy Now</a></span>
-								</div>
-							</div>
-						</div>
-						<div class="col-12 col-xl-3 overflow-hidden box position-relative">
-							<img src="img/iphone13pro.jpg" class="img-fluid m-auto" alt="" />
-							<div
-								class="text position-absolute bg-h top-100 start-0 d-flex h-100 text-center w-100 p-3 justify-content-center align-items-center flex-column">
-								<h2 class="text-main uppercase mt-2">iphone13</h2>
-								<p class="text-white-50">
-									A dramatically more powerful camera system. A display so
-									responsive, every interaction feels new again. The world’s
-									fastest smartphone chip.
-									<a target="_blank" href="https://www.apple.com/iphone-13-pro/"
-										class="d-inline text-main">Learn More.</a>
-								</p>
-								<div class="price d-flex flex-row justify-content-between w-100 align-items-center">
-									<span class="ms-2 text-white fs-3 fw-bold">$999</span>
-									<span
-										class="me-2 rounded bg-main text-white pt-1 pb-1 ps-3 pe-3 d-flex align-items-center fw-bold uppercase buy-btn"><a
-											target="_blank"
-											href="https://www.apple.com/shop/buy-iphone/iphone-13-pro">Buy
-											Now</a></span>
-								</div>
-							</div>
-						</div>
-						<div
-							class="col-12 col-xl-3 overflow-hidden box position-relative d-flex justify-content-center align-items-center">
-							<img src="img/glaxy-fold.jpg" class="img-fluid m-auto" alt="" />
-							<div
-								class="text position-absolute bg-h top-100 start-0 d-flex h-100 text-center w-100 p-3 justify-content-center align-items-center flex-column">
-								<h2 class="text-main uppercase mt-2">glaxy z fold3</h2>
-								<p class="text-white-50">
-									Flex it, leave it, then join a video call and chat
-									hands-free. View your latest pics on the left panel as you
-									frame your
-									<a target="_blank" href="https://www.samsung.com/us/smartphones/galaxy-z-fold3-5g/"
-										class="d-inline text-main">Learn More.</a>
-								</p>
-								<div class="price d-flex flex-row justify-content-between w-100 align-items-center">
-									<span class="ms-2 text-white fs-3 fw-bold">$699.99</span>
-									<span
-										class="me-2 rounded bg-main text-white pt-1 pb-1 ps-3 pe-3 d-flex align-items-center fw-bold uppercase buy-btn"><a
-											target="_blank"
-											href="https://www.samsung.com/us/smartphones/galaxy-z-fold3-5g/buy/galaxy-z-fold3-5g-256gb-unlocked-sm-f926uzkaxaa/">Buy
-											Now</a></span>
-								</div>
-							</div>
-						</div>
-						<div
-							class="col-12 col-xl-3 overflow-hidden box position-relative d-flex justify-content-center align-items-center">
-							<img src="img/glaxy-s22-ultra.jpg" class="img-fluid m-auto" alt="" />
-							<div
-								class="text position-absolute bg-h top-100 start-0 d-flex h-100 text-center w-100 p-3 justify-content-center align-items-center flex-column">
-								<h2 class="text-main uppercase mt-2">iphone12</h2>
-								<p class="text-white-50">
-									Our fastest processor ever Nightography camera Way beyond
-									all-day battery1
-									<a target="_blank" href="https://www.samsung.com/us/smartphones/galaxy-s22-ultra/"
-										class="d-inline text-main">Learn More.</a>
-								</p>
-								<div class="price d-flex flex-row justify-content-between w-100 align-items-center">
-									<span class="ms-2 text-white fs-3 fw-bold">$399.99</span>
-									<span
-										class="me-2 rounded bg-main text-white pt-1 pb-1 ps-3 pe-3 d-flex align-items-center fw-bold uppercase buy-btn"><a
-											target="_blank"
-											href="https://www.samsung.com/us/smartphones/galaxy-s22-ultra/buy/galaxy-s22-ultra-512gb-unlocked-sm-s908udrfxaa/?modelCode=SM-S908UDRFXAA">Buy
-											Now</a></span>
-								</div>
-							</div>
-						</div>
-						<div
-							class="col-12 col-xl-3 overflow-hidden box position-relative d-flex justify-content-center align-items-center">
-							<img src="img/findX.jpg" class="img-fluid m-auto" alt="" />
-							<div
-								class="text position-absolute bg-h top-100 start-0 d-flex h-100 text-center w-100 p-3 justify-content-center align-items-center flex-column">
-								<h2 class="text-main uppercase mt-2">Oppo find X</h2>
-								<p class="text-white-50">
-									Panoramic Arc Screen A visual revolution OPPO Find X is the
-									world’s first panoramic designed phone,
-									<a target="_blank" href="https://www.oppo.com/en/smartphones/series-find-x/find-x/"
-										class="d-inline text-main">Learn More.</a>
-								</p>
-								<div class="price d-flex flex-row justify-content-between w-100 align-items-center">
-									<span class="ms-2 text-white fs-3 fw-bold">$668</span>
-									<span
-										class="me-2 rounded bg-main text-white pt-1 pb-1 ps-3 pe-3 d-flex align-items-center fw-bold uppercase buy-btn"><a
-											target="_blank"
-											href="https://www.amazon.com/dp/B07K5TCHB1?tag=gsmarena093-20&linkCode=osi&th=1&psc=1">Buy
-											Now</a></span>
-								</div>
-							</div>
-						</div>
-						<div class="col-12 col-xl-3 overflow-hidden box position-relative">
-							<img src="img/find-x5.jpg" class="img-fluid m-auto" alt="" />
-							<div
-								class="text position-absolute bg-h top-100 start-0 d-flex h-100 text-center w-100 p-3 justify-content-center align-items-center flex-column">
-								<h2 class="text-main uppercase mt-2">oppo find x5</h2>
-								<p class="text-white-50">
-									OPPO Find X5’s streamlined curve is made possible with
-									frosting matte glass, creating a silky gloss which feels
-									incredible
-									<a target="_blank" href="https://www.oppo.com/en/smartphones/series-find-x/find-x5/"
-										class="d-inline text-main">Learn More.</a>
-								</p>
-								<div class="price d-flex flex-row justify-content-between w-100 align-items-center">
-									<span class="ms-2 text-white fs-3 fw-bold">$1299</span>
-									<span
-										class="me-2 rounded bg-main text-white pt-1 pb-1 ps-3 pe-3 d-flex align-items-center fw-bold uppercase buy-btn"><a
-											target="_blank"
-											href="https://www.amazon.com/Oppo-Find-256GB-Factory-Unlocked/dp/B09SQB1HDM">Buy
-											Now</a></span>
-								</div>
-							</div>
-						</div>
-					</div>
-				</div>
-				<div class="laptops pt-5 pb-5 d-none devices">
-					<div class="row">
-						<div class="col-12 col-xl-3 overflow-hidden box position-relative">
-							<img src="img/MacBook-Pro.jpg" class="img-fluid m-auto" alt="" />
-							<div
-								class="text position-absolute bg-h top-100 start-0 d-flex h-100 text-center w-100 p-3 justify-content-center align-items-center flex-column">
-								<h2 class="text-main mt-2">MacBook Pro</h2>
-								<p class="text-white-50">
-									Supercharged for pros. The most powerful MacBook Pro ever is
-									here. With the blazing-fast M1 Pro or M1 Max chip
-									<a target="_blank" href="https://www.apple.com/macbook-pro-14-and-16/"
-										class="d-inline text-main">Learn More.</a>
-								</p>
-								<div class="price d-flex flex-row justify-content-between w-100 align-items-center">
-									<span class="ms-2 text-white fs-3 fw-bold">$1999</span>
-									<span
-										class="me-2 rounded bg-main text-white pt-1 pb-1 ps-3 pe-3 d-flex align-items-center fw-bold uppercase buy-btn"><a
-											target="_blank"
-											href="https://www.apple.com/shop/buy-mac/macbook-pro/14-inch">Buy
-											Now</a></span>
-								</div>
-							</div>
-						</div>
-						<div
-							class="col-12 col-xl-3 overflow-hidden box position-relative d-flex justify-content-center align-items-center">
-							<img src="img/MacBook-Air.jpg" class="img-fluid m-auto" alt="" />
-							<div
-								class="text position-absolute bg-h top-100 start-0 d-flex h-100 text-center w-100 p-3 justify-content-center align-items-center flex-column">
-								<h2 class="text-main mt-2">MacBook Air</h2>
-								<p class="text-white-50">
-									Power. It’s in the Air. Our thinnest, lightest notebook,
-									completely transformed by the Apple M1 chip.
-									<a target="_blank" href="https://www.apple.com/macbook-air/"
-										class="d-inline text-main">Learn More.</a>
-								</p>
-								<div class="price d-flex flex-row justify-content-between w-100 align-items-center">
-									<span class="ms-2 text-white fs-3 fw-bold">$999</span>
-									<span
-										class="me-2 rounded bg-main text-white pt-1 pb-1 ps-3 pe-3 d-flex align-items-center fw-bold uppercase buy-btn"><a
-											target="_blank" href="https://www.apple.com/shop/buy-mac/macbook-air">Buy
-											Now</a></span>
-								</div>
-							</div>
-						</div>
-						<div class="col-12 col-xl-3 overflow-hidden box position-relative">
-							<img src="img/MateBook-X-Pro.jpg" class="img-fluid m-auto" alt="" />
-							<div
-								class="text position-absolute bg-h top-100 start-0 d-flex h-100 text-center w-100 p-3 justify-content-center align-items-center flex-column">
-								<h2 class="text-main uppercase mt-2">MateBook Pro</h2>
-								<p class="text-white-50">
-									Set the screen back easily with seamless keyboard adjustment
-									for the perfect an
-									<a target="_blank" href="https://consumer.huawei.com/eg-en/laptops/matebook-e-2022/"
-										class="d-inline text-main">Learn More.</a>
-								</p>
-								<div class="price d-flex flex-row justify-content-between w-100 align-items-center">
-									<span class="ms-2 text-white fs-3 fw-bold">$1239</span>
-									<span
-										class="me-2 rounded bg-main text-white pt-1 pb-1 ps-3 pe-3 d-flex align-items-center fw-bold uppercase buy-btn"><a
-											target="_blank"
-											href="https://consumer.huawei.com/eg-en/laptops/matebook-e-2022/buy//">Buy
-											Now</a></span>
-								</div>
-							</div>
-						</div>
-						<div class="col-12 col-xl-3 overflow-hidden box position-relative">
-							<img src="img/MSI-Creator-15.jpg" class="img-fluid m-auto" alt="" />
-							<div
-								class="text position-absolute bg-h top-100 start-0 d-flex h-100 text-center w-100 p-3 justify-content-center align-items-center flex-column">
-								<h2 class="text-main uppercase mt-2">MSI Creator 15</h2>
-								<p class="text-white-50">
-									Create timeless moments Intel Core i7 badge Powered by 11th
-									Gen. Intel® Core™ i7 processors Unlock your creativity and
-									create splendid moments.<a target="_blank"
-										href="https://www.msi.com/Content-Creation/Creator-15-A11UX"
-										class="d-inline text-main">Learn More.</a>
-								</p>
-								<div class="price d-flex flex-row justify-content-between w-100 align-items-center">
-									<span class="ms-2 text-white fs-3 fw-bold">$1499</span>
-									<span
-										class="me-2 rounded bg-main text-white pt-1 pb-1 ps-3 pe-3 d-flex align-items-center fw-bold uppercase buy-btn"><a
-											target="_blank"
-											href="https://www.amazon.com/MSI-Creator-15M-A9SD-044-GTX1660Ti/dp/B07YTFGXS3">Buy
-											Now</a></span>
-								</div>
-							</div>
-						</div>
-						<div class="col-12 col-xl-3 overflow-hidden box position-relative">
-							<img src="img/Dell-XPS15.jpg" class="img-fluid m-auto" alt="" />
-							<div
-								class="text position-absolute bg-h top-100 start-0 d-flex h-100 text-center w-100 p-3 justify-content-center align-items-center flex-column">
-								<h2 class="text-main uppercase mt-2">Dell Xps 15</h2>
-								<p class="text-white-50">
-									Stunning display Get immersed in content with bright, color
-									rich panels with high resolution,<a target="_blank"
-										href="https://www.dell.com/en-us/shop/dell-laptops/new-xps-15-laptop/spd/xps-15-9520-laptop/xn9520cto020s"
-										class="d-inline text-main">Learn More.</a>
-								</p>
-								<div class="price d-flex flex-row justify-content-between w-100 align-items-center">
-									<span class="ms-2 text-white fs-3 fw-bold">$1899</span>
-									<span
-										class="me-2 rounded bg-main text-white pt-1 pb-1 ps-3 pe-3 d-flex align-items-center fw-bold uppercase buy-btn"><a
-											target="_blank"
-											href="https://www.dell.com/en-us/shop/dell-laptops/new-xps-15-laptop/spd/xps-15-9520-laptop/xn9520cto020s">Buy
-											Now</a></span>
-								</div>
-							</div>
-						</div>
-						<div class="col-12 col-xl-3 overflow-hidden box position-relative">
-							<img src="img/HP-14S.jpg" class="img-fluid m-auto" alt="" />
-							<div
-								class="text position-absolute bg-h top-100 start-0 d-flex h-100 text-center w-100 p-3 justify-content-center align-items-center flex-column">
-								<h2 class="text-main uppercase mt-2">HP Pavilion Aero</h2>
-								<p class="text-white-50">
-									Nothing will hold you back with the HP Pavilion Aero Laptop.
-									Incredibly lightweight and packs a punch to the most
-									demanding tasks at<a target="_blank"
-										href="https://www.hp.com/us-en/shop/pdp/hp-pavilion-aero-laptop-13z-be100-502q9av-1"
-										class="d-inline text-main">Learn More.</a>
-								</p>
-								<div class="price d-flex flex-row justify-content-between w-100 align-items-center">
-									<span class="ms-2 text-white fs-3 fw-bold">$549.99</span>
-									<span
-										class="me-2 rounded bg-main text-white pt-1 pb-1 ps-3 pe-3 d-flex align-items-center fw-bold uppercase buy-btn"><a
-											target="_blank"
-											href="https://www.hp.com/us-en/shop/pdp/hp-pavilion-aero-laptop-13z-be100-502q9av-1">Buy
-											Now</a></span>
-								</div>
-							</div>
-						</div>
-						<div class="col-12 col-xl-3 overflow-hidden box position-relative">
-							<img src="img/Lenovo-IdeaPad-Slim7.jpg" class="img-fluid m-auto" alt="" />
-							<div
-								class="text position-absolute bg-h top-100 start-0 d-flex h-100 text-center w-100 p-3 justify-content-center align-items-center flex-column">
-								<h2 class="text-main mt-2">Lenovo Slim 7</h2>
-								<p class="text-white-50">
-									Slim performance, powered by AMD Features powerful &
-									responsive AMD Ryzen™ 4000 Series<a target="_blank"
-										href="https://www.lenovo.com/us/en/p/laptops/ideapad/ideapad-700-series/ideapad-slim-7-14are05/88ips701400?orgRef=https%253A%252F%252Fwww.google.com%252F"
-										class="d-inline text-main">Learn More.</a>
-								</p>
-								<div class="price d-flex flex-row justify-content-between w-100 align-items-center">
-									<span class="ms-2 text-white fs-3 fw-bold">$1099.99</span>
-									<span
-										class="me-2 rounded bg-main text-white pt-1 pb-1 ps-3 pe-3 d-flex align-items-center fw-bold uppercase buy-btn"><a
-											target="_blank"
-											href="https://www.amazon.com/Lenovo-IdeaPad-Laptop-i7-1065G7-Graphics/dp/B08P845TP2">Buy
-											Now</a></span>
-								</div>
-							</div>
-						</div>
-						<div class="col-12 col-xl-3 overflow-hidden box position-relative">
-							<img src="img/VaioE15.jpg" class="img-fluid m-auto" alt="" />
-							<div
-								class="text position-absolute bg-h top-100 start-0 d-flex h-100 text-center w-100 p-3 justify-content-center align-items-center flex-column">
-								<h2 class="text-main mt-2">Vaio E15</h2>
-								<p class="text-white-50">
-									Powered by AMD RyzenTM mobile processors, VAIO®️ E15 model
-									offer an uncompromised performance, as well as an ergonomic
-									form factor and lightweight design.<a target="_blank"
-										href="https://my.vaio.com/product/e15/overview" class="d-inline text-main">Learn
-										More.</a>
-								</p>
-								<div class="price d-flex flex-row justify-content-between w-100 align-items-center">
-									<span class="ms-2 text-white fs-3 fw-bold">$689.55</span>
-									<span
-										class="me-2 rounded bg-main text-white pt-1 pb-1 ps-3 pe-3 d-flex align-items-center fw-bold uppercase buy-btn"><a
-											target="_blank"
-											href="https://www.amazon.com/Sony-VAIO-SVE15126CXP-15-5-Inch-Laptop/dp/B009HPGJ4A/ref=cm_cr_arp_d_product_top?ie=UTF8">Buy
-											Now</a></span>
-								</div>
-							</div>
-						</div>
-					</div>
-				</div>
-				<div class="computers pt-5 pb-5 d-none devices">
-					<div class="row">
-						<div
-							class="col-12 col-xl-3 overflow-hidden box position-relative d-flex justify-content-center align-items-center">
-							<img src="img/Studio -Display.jpg" class="img-fluid m-auto" alt="" />
-							<div
-								class="text position-absolute bg-h top-100 start-0 d-flex h-100 text-center w-100 p-3 justify-content-center align-items-center flex-column">
-								<h2 class="text-main mt-2">Studio Display</h2>
-								<p class="text-white-50">
-									See what you can do. A big, beautiful window into new
-									worlds, Studio Display draws you in from the moment you turn
-									it on.
-									<a target="_blank" href="https://www.apple.com/studio-display/"
-										class="d-inline text-main">Learn More.</a>
-								</p>
-								<div class="price d-flex flex-row justify-content-between w-100 align-items-center">
-									<span class="ms-2 text-white fs-3 fw-bold">$1599</span>
-									<span
-										class="me-2 rounded bg-main text-white pt-1 pb-1 ps-3 pe-3 d-flex align-items-center fw-bold uppercase buy-btn"><a
-											target="_blank"
-											href="https://www.apple.com/shop/buy-mac/apple-studio-display">Buy
-											Now</a></span>
-								</div>
-							</div>
-						</div>
-						<div
-							class="col-12 col-xl-3 overflow-hidden box position-relative d-flex justify-content-center align-items-center">
-							<img src="img/Gaming-PC.jpg" class="img-fluid m-auto" alt="" />
-							<div
-								class="text position-absolute bg-h top-100 start-0 d-flex h-100 text-center w-100 p-3 justify-content-center align-items-center flex-column">
-								<h2 class="text-main mt-2">Gaming PC</h2>
-								<p class="text-white-50">
-									Skytech Blaze 3.0 Gaming PC Desktop - AMD Ryzen 7 5800X 8
-									-core 3.8GHz، RTX 3070 8GB GDDR6,
-									<a target="_blank"
-										href="https://www.ubuy.com.eg/ar/product/1GC2IT8RG-skytech-blaze-3-0-gaming-pc-desktop-amd-ryzen-7-5800x-8-core-3-8ghz-rtx-3070-8gb-gddr6-16gb-ddr4-3200mhz-1tb-gen4-nvme-ssd-240mm-aio-750w-gold"
-										class="d-inline text-main">Learn More.</a>
-								</p>
-								<div class="price d-flex flex-row justify-content-between w-100 align-items-center">
-									<span class="ms-2 text-white fs-3 fw-bold">$2761.42</span>
-									<span
-										class="me-2 rounded bg-main text-white pt-1 pb-1 ps-3 pe-3 d-flex align-items-center fw-bold uppercase buy-btn"><a
-											target="_blank"
-											href="https://www.ubuy.com.eg/ar/product/1GC2IT8RG-skytech-blaze-3-0-gaming-pc-desktop-amd-ryzen-7-5800x-8-core-3-8ghz-rtx-3070-8gb-gddr6-16gb-ddr4-3200mhz-1tb-gen4-nvme-ssd-240mm-aio-750w-gold">Buy
-											Now</a></span>
-								</div>
-							</div>
-						</div>
-						<div class="col-12 col-xl-3 overflow-hidden box position-relative">
-							<img src="img/pc-2.jpg" class="img-fluid m-auto" alt="" />
-							<div
-								class="text position-absolute bg-h top-100 start-0 d-flex h-100 text-center w-100 p-3 justify-content-center align-items-center flex-column">
-								<h2 class="text-main mt-2">Economical PC</h2>
-								<p class="text-white-50">
-									Gaming PC Desktop Computer by Alarco Intel i5 3.10GHz,8GB
-									Ram,
-									<a target="_blank"
-										href="https://www.amazon.com/Gaming-Desktop-Computer-3-10GHz-Windows/dp/B07YQCQBJK/ref=sr_1_3?crid=TCG7OU2SF7FL&keywords=PC&qid=1653338334&sprefix=pc%2Caps%2C409&sr=8-3"
-										class="d-inline text-main">Learn More.</a>
-								</p>
-								<div class="price d-flex flex-row justify-content-between w-100 align-items-center">
-									<span class="ms-2 text-white fs-3 fw-bold">$499.99</span>
-									<span
-										class="me-2 rounded bg-main text-white pt-1 pb-1 ps-3 pe-3 d-flex align-items-center fw-bold uppercase buy-btn"><a
-											target="_blank"
-											href="https://www.amazon.com/Gaming-Desktop-Computer-3-10GHz-Windows/dp/B07YQCQBJK/ref=sr_1_3?crid=TCG7OU2SF7FL&keywords=PC&qid=1653338334&sprefix=pc%2Caps%2C409&sr=8-3">Buy
-											Now</a></span>
-								</div>
-							</div>
-						</div>
-						<div class="col-12 col-xl-3 overflow-hidden box position-relative">
-							<img src="img/pc-CustomBuilder.jpg" class="img-fluid m-auto" alt="" />
-							<div
-								class="text position-absolute bg-h top-100 start-0 d-flex h-100 text-center w-100 p-3 justify-content-center align-items-center flex-column">
-								<h2 class="text-main mt-2">Custom PC</h2>
-								<p class="text-white-50">
-									We build custom PCs around your budget, optimized for the
-									games you love,
-									<a target="_blank" href="https://nzxt.com/category/gaming-pcs/build"
-										class="d-inline text-main">Learn More.</a>
-								</p>
-								<div class="price d-flex flex-row justify-content-between w-100 align-items-center">
-									<span class="ms-2 text-white fs-3 fw-bold">$1499.99</span>
-									<span
-										class="me-2 rounded bg-main text-white pt-1 pb-1 ps-3 pe-3 d-flex align-items-center fw-bold uppercase buy-btn"><a
-											target="_blank" href="https://nzxt.com/category/gaming-pcs/build">Order
-											Now</a></span>
-								</div>
-							</div>
-						</div>
-						<div class="col-12 col-xl-3 overflow-hidden box position-relative">
-							<img src="img/pc-1.jpg" class="img-fluid m-auto" alt="" />
-							<div
-								class="text position-absolute bg-h top-100 start-0 d-flex h-100 text-center w-100 p-3 justify-content-center align-items-center flex-column">
-								<h2 class="text-main mt-2">Medium Range PC</h2>
-								<p class="text-white-50">
-									ASUS ROG Strix GL10 Gaming Desktop، AMD Ryzen 5 -3600X،
-									NVIDIA GeForce GTX 1660TI، 8GB DDR4
-									<a target="_blank"
-										href="https://www.ubuy.com.eg/ar/product/47XXC72PC-asus-rog-strix-g10dk-gaming-desktop-amd-ryzen-5-3600x-nvidia-geforce-gtx-1660ti-8gb-ddr4-ram-256gb-pcie-ssd-windows-10-home-gray-g10dk-wh563"
-										class="d-inline text-main">Learn More.</a>
-								</p>
-								<div class="price d-flex flex-row justify-content-between w-100 align-items-center">
-									<span class="ms-2 text-white fs-3 fw-bold">$1060.17</span>
-									<span
-										class="me-2 rounded bg-main text-white pt-1 pb-1 ps-3 pe-3 d-flex align-items-center fw-bold uppercase buy-btn"><a
-											target="_blank"
-											href="https://www.ubuy.com.eg/ar/product/47XXC72PC-asus-rog-strix-g10dk-gaming-desktop-amd-ryzen-5-3600x-nvidia-geforce-gtx-1660ti-8gb-ddr4-ram-256gb-pcie-ssd-windows-10-home-gray-g10dk-wh563">Buy
-											Now</a></span>
-								</div>
-							</div>
-						</div>
-						<div class="col-12 col-xl-3 overflow-hidden box position-relative">
-							<img src="img/pc-4.jpg" class="img-fluid m-auto" alt="" />
-							<div
-								class="text position-absolute bg-h top-100 start-0 d-flex h-100 text-center w-100 p-3 justify-content-center align-items-center flex-column">
-								<h2 class="text-main mt-2">Medium Range PC</h2>
-								<p class="text-white-50">
-									SkyTech Chronos Mini Gaming Computer PC Desktop - Intel
-									Core-i3 10100F 3.6GHz, GTX 1650 4G
-									<a target="_blank"
-										href="https://www.ubuy.com.eg/ar/product/414QM1B5M-skytech-chronos-mini-gaming-computer-pc-desktop-intel-core-i3-10100f-3-6ghz-gtx-1650-4g-500gb-ssd-8g-3000-rgb-fans-ac-wifi-windows-10-home"
-										class="d-inline text-main">Learn More.</a>
-								</p>
-								<div class="price d-flex flex-row justify-content-between w-100 align-items-center">
-									<span class="ms-2 text-white fs-3 fw-bold">$1384</span>
-									<span
-										class="me-2 rounded bg-main text-white pt-1 pb-1 ps-3 pe-3 d-flex align-items-center fw-bold uppercase buy-btn"><a
-											target="_blank"
-											href="https://www.ubuy.com.eg/ar/product/414QM1B5M-skytech-chronos-mini-gaming-computer-pc-desktop-intel-core-i3-10100f-3-6ghz-gtx-1650-4g-500gb-ssd-8g-3000-rgb-fans-ac-wifi-windows-10-home">Buy
-											Now</a></span>
-								</div>
-							</div>
-						</div>
-						<div
-							class="col-12 col-xl-3 overflow-hidden box position-relative d-flex justify-content-center align-items-center">
-							<img src="img/pc-3.jpg" class="img-fluid m-auto" alt="" />
-							<div
-								class="text position-absolute bg-h top-100 start-0 d-flex h-100 text-center w-100 p-3 justify-content-center align-items-center flex-column">
-								<h2 class="text-main mt-2">Heigh PC</h2>
-								<p class="text-white-50">
-									Thermaltake LCGS Avalanche 360T AIO Liquid Cooled Gaming PC
-									(AMD Ryzen ™ 5 5600X 6 -core،
-									<a target="_blank"
-										href="https://www.ubuy.com.eg/ar/product/4L0BFP41C-thermaltake-lcgs-avalanche-360t-aio-liquid-cooled-gaming-pc-amd-ryzen-5-5600x-6-core-ddr4-3600mhz-16gb-rgb-memory-nvidia-geforce-rtx-3060"
-										class="d-inline text-main">Learn More.</a>
-								</p>
-								<div class="price d-flex flex-row justify-content-between w-100 align-items-center">
-									<span class="ms-2 text-white fs-3 fw-bold">$1671</span>
-									<span
-										class="me-2 rounded bg-main text-white pt-1 pb-1 ps-3 pe-3 d-flex align-items-center fw-bold uppercase buy-btn"><a
-											target="_blank"
-											href="https://www.ubuy.com.eg/ar/product/4L0BFP41C-thermaltake-lcgs-avalanche-360t-aio-liquid-cooled-gaming-pc-amd-ryzen-5-5600x-6-core-ddr4-3600mhz-16gb-rgb-memory-nvidia-geforce-rtx-3060">Buy
-											Now</a></span>
-								</div>
-							</div>
-						</div>
-						<div
-							class="col-12 col-xl-3 overflow-hidden box position-relative d-flex justify-content-center align-items-center">
-							<img src="img/pc-6.jpg" class="img-fluid m-auto" alt="" />
-							<div
-								class="text position-absolute bg-h top-100 start-0 d-flex h-100 text-center w-100 p-3 justify-content-center align-items-center flex-column">
-								<h2 class="text-main mt-2">Heigh PC</h2>
-								<p class="text-white-50">
-									Skytech Azure Gaming PC Desktop - AMD Ryzen 5 3600 3.6GHz ،
-									RTX 3070 8GB ، 16
-									<a target="_blank"
-										href="https://www.ubuy.com.eg/ar/product/1GEIDSU6S-skytech-azure-gaming-pc-desktop-amd-ryzen-5-3600-3-60-ghz-rtx-3070-8-gb-16-gb-ddr4-3000-1-tb-nvme-ssd-b450-motherboard-650w-gold-psu-windows"
-										class="d-inline text-main">Learn More.</a>
-								</p>
-								<div class="price d-flex flex-row justify-content-between w-100 align-items-center">
-									<span class="ms-2 text-white fs-3 fw-bold">$2420.29</span>
-									<span
-										class="me-2 rounded bg-main text-white pt-1 pb-1 ps-3 pe-3 d-flex align-items-center fw-bold uppercase buy-btn"><a
-											target="_blank"
-											href="https://www.ubuy.com.eg/ar/product/1GEIDSU6S-skytech-azure-gaming-pc-desktop-amd-ryzen-5-3600-3-60-ghz-rtx-3070-8-gb-16-gb-ddr4-3000-1-tb-nvme-ssd-b450-motherboard-650w-gold-psu-windows">Buy
-											Now</a></span>
-								</div>
-							</div>
-						</div>
-					</div>
-				</div>
-				<div class="tablets pt-5 pb-5 d-none devices">
-					<div class="row">
-						<div class="col-12 col-xl-3 overflow-hidden box position-relative">
-							<img src="img/Ipad-Pro.jpg" class="img-fluid m-auto" alt="" />
-							<div
-								class="text position-absolute bg-h top-100 start-0 d-flex h-100 text-center w-100 p-3 justify-content-center align-items-center flex-column">
-								<h2 class="text-main mt-2 text-uppercase">Ipad pro 2021</h2>
-								<p class="text-white-50">
-									The ultimate iPad experience. Now with breakthrough M1
-									performance, a breathtaking XDR display,
-									<a target="_blank" href="https://www.apple.com/ipad-pro/"
-										class="d-inline text-main">Learn More.</a>
-								</p>
-								<div class="price d-flex flex-row justify-content-between w-100 align-items-center">
-									<span class="ms-2 text-white fs-3 fw-bold">$799.99</span>
-									<span
-										class="me-2 rounded bg-main text-white pt-1 pb-1 ps-3 pe-3 d-flex align-items-center fw-bold uppercase buy-btn"><a
-											target="_blank" href="https://www.apple.com/shop/buy-ipad/ipad-pro">Buy
-											Now</a></span>
-								</div>
-							</div>
-						</div>
-						<div class="col-12 col-xl-3 overflow-hidden box position-relative">
-							<img src="img/Ipad-Air.jpg" class="img-fluid m-auto" alt="" />
-							<div
-								class="text position-absolute bg-h top-100 start-0 d-flex h-100 text-center w-100 p-3 justify-content-center align-items-center flex-column">
-								<h2 class="text-main mt-2 text-uppercase">Ipad Air 2021</h2>
-								<p class="text-white-50">
-									Light Bright. Full of might. Supercharged by the Apple M1
-									chip.
-									<a target="_blank" href="https://www.apple.com/ipad-air/"
-										class="d-inline text-main">Learn More.</a>
-								</p>
-								<div class="price d-flex flex-row justify-content-between w-100 align-items-center">
-									<span class="ms-2 text-white fs-3 fw-bold">$599.99</span>
-									<span
-										class="me-2 rounded bg-main text-white pt-1 pb-1 ps-3 pe-3 d-flex align-items-center fw-bold uppercase buy-btn"><a
-											target="_blank" href="https://www.apple.com/shop/buy-ipad/ipad-air">Buy
-											Now</a></span>
-								</div>
-							</div>
-						</div>
-						<div class="col-12 col-xl-3 overflow-hidden box position-relative">
-							<img src="img/Ipad-Mini.jpg" class="img-fluid m-auto" alt="" />
-							<div
-								class="text position-absolute bg-h top-100 start-0 d-flex h-100 text-center w-100 p-3 justify-content-center align-items-center flex-column">
-								<h2 class="text-main mt-2 text-uppercase">Ipad mini 2021</h2>
-								<p class="text-white-50">
-									New all‑screen design. Powerful A15 Bionic chip. Superfast
-									5G.
-									<a target="_blank" href="https://www.apple.com/ipad-mini/"
-										class="d-inline text-main">Learn More.</a>
-								</p>
-								<div class="price d-flex flex-row justify-content-between w-100 align-items-center">
-									<span class="ms-2 text-white fs-3 fw-bold">$499.99</span>
-									<span
-										class="me-2 rounded bg-main text-white pt-1 pb-1 ps-3 pe-3 d-flex align-items-center fw-bold uppercase buy-btn"><a
-											target="_blank" href="https://www.apple.com/shop/buy-ipad/ipad-mini">Buy
-											Now</a></span>
-								</div>
-							</div>
-						</div>
-						<div class="col-12 col-xl-3 overflow-hidden box position-relative">
-							<img src="img/Ipad9.jpg" class="img-fluid m-auto" alt="" />
-							<div
-								class="text position-absolute bg-h top-100 start-0 d-flex h-100 text-center w-100 p-3 justify-content-center align-items-center flex-column">
-								<h2 class="text-main mt-2 text-uppercase">Ipad ipad 10.2</h2>
-								<p class="text-white-50">
-									Powerful. Easy to use. Versatile. The new iPad is designed
-									for all the things you love to do. Work, play, create,
-									learn,
-									<a target="_blank" href="https://www.apple.com/ipad-10.2/"
-										class="d-inline text-main">Learn More.</a>
-								</p>
-								<div class="price d-flex flex-row justify-content-between w-100 align-items-center">
-									<span class="ms-2 text-white fs-3 fw-bold">$329.99</span>
-									<span
-										class="me-2 rounded bg-main text-white pt-1 pb-1 ps-3 pe-3 d-flex align-items-center fw-bold uppercase buy-btn"><a
-											target="_blank" href="https://www.apple.com/shop/buy-ipad/ipad-10-2">Buy
-											Now</a></span>
-								</div>
-							</div>
-						</div>
-						<div class="col-12 col-xl-3 overflow-hidden box position-relative">
-							<img src="img/Huawei-MatePad-pro.jpg" class="img-fluid m-auto" alt="" />
-							<div
-								class="text position-absolute bg-h top-100 start-0 d-flex h-100 text-center w-100 p-3 justify-content-center align-items-center flex-column">
-								<h2 class="text-main mt-2">MatePad PRO</h2>
-								<p class="text-white-50">
-									Inspirations from Nature Capturing beautiful colours from
-									nature, HUAWEI MatePad Pro 5G comes in
-									<a target="_blank" href="https://consumer.huawei.com/en/tablets/matepad-pro-5g/"
-										class="d-inline text-main">Learn More.</a>
-								</p>
-								<div class="price d-flex flex-row justify-content-between w-100 align-items-center">
-									<span class="ms-2 text-white fs-3 fw-bold">$1329</span>
-									<span
-										class="me-2 rounded bg-main text-white pt-1 pb-1 ps-3 pe-3 d-flex align-items-center fw-bold uppercase buy-btn"><a
-											target="_blank"
-											href="https://www.amazon.com/Huawei-MatePad-10-8-inches-Display-128GB/dp/B083MZ9NKF">Buy
-											Now</a></span>
-								</div>
-							</div>
-						</div>
-						<div class="col-12 col-xl-3 overflow-hidden box position-relative">
-							<img src="img/GlaxyTap-S8Ultra.jpg" class="img-fluid m-auto" alt="" />
-							<div
-								class="text position-absolute bg-h top-100 start-0 d-flex h-100 text-center w-100 p-3 justify-content-center align-items-center flex-column">
-								<h2 class="text-main mt-2">Glaxy Tap S8 Ultra</h2>
-								<p class="text-white-50">
-									Discover more with expansive display Create more with
-									included S Pen Capture more with ultra-wide camera
-									<a target="_blank" href="https://www.samsung.com/us/tablets/tab-s8/"
-										class="d-inline text-main">Learn More.</a>
-								</p>
-								<div class="price d-flex flex-row justify-content-between w-100 align-items-center">
-									<span class="ms-2 text-white fs-3 fw-bold">$499.99</span>
-									<span
-										class="me-2 rounded bg-main text-white pt-1 pb-1 ps-3 pe-3 d-flex align-items-center fw-bold uppercase buy-btn"><a
-											target="_blank"
-											href="https://www.samsung.com/us/tablets/galaxy-tab-s8/buy/">Buy
-											Now</a></span>
-								</div>
-							</div>
-						</div>
-						<div
-							class="col-12 col-xl-3 overflow-hidden box position-relative d-flex justify-content-center align-items-center">
-							<img src="img/LenovoTap-P11.jpg" class="img-fluid m-auto" alt="" />
-							<div
-								class="text position-absolute bg-h top-100 start-0 d-flex h-100 text-center w-100 p-3 justify-content-center align-items-center flex-column">
-								<h2 class="text-main mt-2">Lenovo Tap P11</h2>
-								<p class="text-white-50">
-									Lenovo Tab P11 Pro Next Do it all like a pro Tap into
-									non-stop entertainment with one of Lenovo's thinnest and
-									most powerful Android™ tablets.
-									<a target="_blank"
-										href="https://www.lenovo.com/eg/en/tablets/android-tablets/lenovo-tab-series/Lenovo-TB-J706/p/ZZITZTATB0J"
-										class="d-inline text-main">Learn More.</a>
-								</p>
-								<div class="price d-flex flex-row justify-content-between w-100 align-items-center">
-									<span class="ms-2 text-white fs-3 fw-bold">$258</span>
-									<span
-										class="me-2 rounded bg-main text-white pt-1 pb-1 ps-3 pe-3 d-flex align-items-center fw-bold uppercase buy-btn"><a
-											target="_blank"
-											href="https://www.amazon.com/Lenovo-MediaTek-Octa-Core-Processor-Bluetooth/dp/B09B17DVYR">Buy
-											Now</a></span>
-								</div>
-							</div>
-						</div>
-						<div
-							class="col-12 col-xl-3 overflow-hidden box position-relative d-flex justify-content-center align-items-center flex-column">
-							<img src="img/Surface-Pro.jpg" class="img-fluid m-auto" alt="" />
-							<div
-								class="text position-absolute bg-h top-100 start-0 d-flex h-100 text-center w-100 p-3 justify-content-center align-items-center flex-column">
-								<h2 class="text-main mt-2">Surface PRO</h2>
-								<p class="text-white-50">
-									Unlock more possibilities than ever with the Pro designed
-									for a Pro like you. The first Surface Pro built on the
-									Intel® Evo™ platform on
-									<a target="_blank" href="https://www.samsung.com/us/tablets/tab-s8/"
-										class="d-inline text-main">Learn More.</a>
-								</p>
-								<div class="price d-flex flex-row justify-content-between w-100 align-items-center">
-									<span class="ms-2 text-white fs-3 fw-bold">$1099.99</span>
-									<span
-										class="me-2 rounded bg-main text-white pt-1 pb-1 ps-3 pe-3 d-flex align-items-center fw-bold uppercase buy-btn"><a
-											target="_blank"
-											href="https://www.microsoft.com/en-us/d/surface-pro-8/8qwcrtq8v8xg?activetab=pivot%3aoverviewtab">Buy
-											Now</a></span>
-								</div>
-							</div>
-						</div>
-					</div>
-				</div>
-			</div>
-		</div>
-	</div>
-	<div class="about mt-5 mb-5 p-4" id="about">
-		<div class="container overflow-hidden pt-5 pb-5">
-			<div class="row justify-content-between">
-				<div class="col-12 col-xl-7">
-					<div
-						class="special-title m-auto w-fit text-center pb-4 pt-4 position-relative d-flex justify-content-center align-items-center flex-column">
-						<h2 class="text-uppercase text-main pb-3">About Us</h2>
-					</div>
-					<p class="text-black-50 mt-5">
-						We Won Your Trust For
-						<script class="Eg" type="module">
-							import { storeHistory as a } from "./js/main.js";
-							document.querySelector(".about .Eg").after(a);
-						</script>
-						Years From Our Shops Opend From 2001 This Date Is First And Best
-						Memory For Us This Date That We Opening A First Branch For Us In
-						Egypt On Cairo City, After That Around
-						<script class="UAE" type="module">
-							import { historyUEA as a } from "./js/main.js";
-							document.querySelector(".about .UAE").after(a);
-						</script>
-						The UAE Ripo Opened And After That USA Ripo After That Germanny
-						Branch
-					</p>
-				</div>
-				<div class="col-12 col-xl-4 position-relative image">
-					<img src="img/about.jpg" alt="" class="img-fluid" />
-				</div>
-			</div>
-		</div>
-	</div>
-	<div class="contact" id="contact">
-		<div class="row m-0">
-			<div
-				class="col-12 col-md-6 image position-relative d-flex p-5 justify-content-center align-items-center image">
-				<div class="overlay position-absolute w-100 h-100"></div>
-				<div class="text w-fit position-relative text-center">
-					<h1 class="text-white">Hello Everybody</h1>
-					<p class="text-white-50 fw-bold">
-						Here We Recived Your Feadback And Reports And Your Questions And
-						We Will Contact With You On Your Email And Show You Where Is
-						Problem Or See Your Feadback And Try To Fix Our Mistakes
-					</p>
-				</div>
-			</div>
-			<div class="col-12 col-md-6">
-				<div class="container">
-					<form action=""
-						class="d-flex flex-column justify-content-center align-items-center gap-4 w-75 m-auto">
-						<input type="text" name="email" placeholder="Enter Your Email" />
-						<input type="text" name="Name" placeholder="Enter Your Name" />
-						<textarea cols="20" rows="5"
-							placeholder="Here we recived your feadback & reports & Your Questions"></textarea>
-						<button class="rounded bg-main text-white p-2 ps-5 pe-5">
-							Send
-						</button>
-					</form>
-				</div>
-			</div>
-		</div>
-	</div>
-	<div class="footer bg-dark p-5">
-		<div class="container">
-			<div class="row">
-				<div class="col-12 col-md-4 d-flex justify-content-between flex-column">
-					<h1 class="navbar-brand text-uppercase pb-4">Random Store</h1>
-					<p class="text-white-50 mt-4 copyright">
-						Created By <span class="text-main">Moustafa</span> In 2021, All
-						Copyright Resaved To <span class="text-main">Him</span>
-					</p>
-				</div>
-				<div class="col-12 col-md-4">
-					<h3 class="pb-2 text-white text-uppercase">Important Links</h3>
-					<ul class="text-white-50 imp-links">
-						<li class="p-1">
-							<a class="text-white-50" href="#">Importent Link
-								<script class="count">
-									let counter = 0;
-									let element = document.querySelectorAll(".count")[counter];
-									counter++;
-									element.after(counter);
-								</script>
-							</a>
-						</li>
-						<li class="p-1">
-							<a class="text-white-50" href="#">
-								Importent Link
-								<script class="count">
-									element = document.querySelectorAll(".count")[counter];
-									counter++;
-									element.after(counter);
-								</script>
-							</a>
-						</li>
-						<li class="p-1">
-							<a class="text-white-50" href="#">
-								Importent Link
-								<script class="count">
-									element = document.querySelectorAll(".count")[counter];
-									counter++;
-									element.after(counter);
-								</script>
-							</a>
-						</li>
-						<li class="p-1">
-							<a class="text-white-50" href="#">
-								Importent Link
-								<script class="count">
-									element = document.querySelectorAll(".count")[counter];
-									counter++;
-									element.after(counter);
-								</script>
-							</a>
-						</li>
-					</ul>
-				</div>
-				<div class="col-12 col-md-4">
-					<h3 class="text-white pb-3 text-uppercase">Our Social Media</h3>
-					<p class="text-white-50 text-center-3">
-						Our Social Media Links & Devolper Social Links To Contact With Him
-						If Web Design Liked You
-					</p>
-					<ul class="icon d-flex jutify-content-center align-items-center w-fit m-auto">
-						<li class="text-white-50 ms-3">
-							<i class="fa-brands fa-github"></i>
-						</li>
-						<li class="text-white-50 ms-3">
-							<i class="fa-brands fa-facebook"></i>
-						</li>
-						<li class="text-white-50 ms-3 me-3">
-							<i class="fa-brands fa-instagram"></i>
-						</li>
-						<li class="text-white-50 me-3">
-							<i class="fa-brands fa-twitter"></i>
-						</li>
-					</ul>
-				</div>
-			</div>
-		</div>
-	</div>
-	<script src="js/all.min.js"></script>
-	<script src="js/bootstrap.bundle.min.js"></script>
-	<script src="js/bootstrap.bundle.min.js.map"></script>
-	<script src="js/main.js" type="module"></script>
-</body>
-
+    <div class="service mt-4 mb-5" id="service">
+      <div class="container">
+        <div
+          class="special-title m-auto w-fit text-center pb-4 pt-4 position-relative"
+        >
+          <h2 class="m-auto text-uppercase text-main mb-3">Services</h2>
+          <p class="m-auto text-black-50">
+            We Have Best Services Batter Than Our Compatitor
+          </p>
+        </div>
+        <div class="row mt-5 mb-5 pt-5">
+          <div class="col-12 col-md-4">
+            <div class="box text-center">
+              <div class="icon text-center mb-5">
+                <i class="fa-solid fa-screwdriver-wrench text-s"></i>
+              </div>
+              <h3 class="uppercase text-dark fw-bold uppercase text-main mb-4">
+                Maitenace
+              </h3>
+              <p class="text-black-50">
+                We Have Best Workers And Engineers Work To Repair Your PC And
+                Your Phones Or Tablets
+              </p>
+            </div>
+          </div>
+          <div class="col-12 col-md-4">
+            <div class="box text-center">
+              <div class="icon text-center mb-5">
+                <i class="fa-brands fa-apple text-s"></i>
+              </div>
+              <h3 class="uppercase text-dark fw-bold uppercase text-main mb-4">
+                Brands
+              </h3>
+              <p class="text-black-50">
+                We Have Evry Phones And Laptops And PC And Smart Screens And
+                Tablets And Ipads From Evry Brands
+              </p>
+            </div>
+          </div>
+          <div class="col-12 col-md-4">
+            <div class="box text-center">
+              <div class="icon text-center mb-5">
+                <i class="fa-solid fa-user-gear text-s"></i>
+              </div>
+              <h3 class="uppercase text-dark fw-bold uppercase text-main mb-4">
+                Customers Services
+              </h3>
+              <p class="text-black-50">
+                We Have The Fastest Customers Services And The Fastest To
+                Descover The Problem And Solve It
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="product bg-light pt-5 mt-5 mb-5" id="product">
+      <div class="container">
+        <div
+          class="special-title m-auto w-fit text-center pb-4 pt-4 position-relative"
+        >
+          <h2 class="m-auto text-uppercase text-main mb-3">Products</h2>
+          <p class="m-auto text-black-50">
+            Products That We Have Phones & Labtobs & Computers And Tablets
+          </p>
+        </div>
+        <ul
+          class="navbar-nav mt-5 mb-5 m-auto p-3 d-flex flex-column flex-md-row w-75 justify-content-center align-items-center gap-4"
+        >
+          <li
+            class="nav-items pt-3 pb-3 ps-3 pe-3 rounded bg-dark text-main uppercase all w-100 text-center active"
+          >
+            All
+          </li>
+          <li
+            class="nav-items pt-3 pb-3 text-center w-100 ps-3 pe-3 rounded bg-dark text-main phones uppercase"
+          >
+            Phones
+          </li>
+          <li
+            class="nav-items pt-3 pb-3 text-center w-100 ps-3 pe-3 rounded bg-dark text-main laptops uppercase"
+          >
+            Laptops
+          </li>
+          <li
+            class="nav-items pt-3 pb-3 text-center w-100 ps-3 pe-3 rounded bg-dark text-main computers uppercase"
+          >
+            Computers
+          </li>
+          <li
+            class="nav-items pt-3 pb-3 text-center w-100 ps-3 pe-3 rounded bg-dark text-main tablets uppercase"
+          >
+            Tablets
+          </li>
+        </ul>
+      </div>
+      <div class="space position-relative">
+        <div class="position-absolute d-none d-xl-block top-50 right">
+          <i class="fa-solid fa-chevron-right"></i>
+        </div>
+        <div class="position-absolute d-none d-xl-block top-50 left">
+          <i class="fa-solid fa-chevron-left"></i>
+        </div>
+        <div class="container">
+          <div class="all pt-5 pb-5 d-block devices opacity-100">
+            <div class="row">
+              <div
+                class="col-12 col-xl-3 overflow-hidden box position-relative"
+              >
+                <img
+                  src="img/iphone13pro.jpg"
+                  class="img-fluid m-auto"
+                  alt=""
+                />
+                <div
+                  class="text position-absolute bg-h top-100 start-0 d-flex h-100 text-center w-100 p-3 justify-content-center align-items-center flex-column"
+                >
+                  <h2 class="text-main uppercase mt-2">iphone13</h2>
+                  <p class="text-white-50">
+                    A dramatically more powerful camera system. A display so
+                    responsive, every interaction feels new again. The world’s
+                    fastest smartphone chip.
+                    <a
+                      target="_blank"
+                      href="https://www.apple.com/iphone-13-pro/"
+                      class="d-inline text-main"
+                    >
+                      Learn More.
+                    </a>
+                  </p>
+                  <div
+                    class="price d-flex flex-row justify-content-between w-100 align-items-center"
+                  >
+                    <span class="ms-2 text-white fs-3 fw-bold">$999</span>
+                    <span
+                      class="me-2 rounded bg-main text-white pt-1 pb-1 ps-3 pe-3 d-flex align-items-center fw-bold uppercase buy-btn"
+                    >
+                      <a
+                        target="_blank"
+                        href="https://www.apple.com/shop/buy-iphone/iphone-13-pro"
+                      >
+                        Buy Now
+                      </a>
+                    </span>
+                  </div>
+                </div>
+              </div>
+              <div
+                class="col-12 col-xl-3 overflow-hidden box position-relative d-flex justify-content-center align-items-center"
+              >
+                <img src="img/findX.jpg" class="img-fluid m-auto" alt="" />
+                <div
+                  class="text position-absolute bg-h top-100 start-0 d-flex h-100 text-center w-100 p-3 justify-content-center align-items-center flex-column"
+                >
+                  <h2 class="text-main uppercase mt-2">Oppo find X</h2>
+                  <p class="text-white-50">
+                    Panoramic Arc Screen A visual revolution OPPO Find X is the
+                    world’s first panoramic designed phone,
+                    <a
+                      target="_blank"
+                      href="https://www.oppo.com/en/smartphones/series-find-x/find-x/"
+                      class="d-inline text-main"
+                    >
+                      Learn More.
+                    </a>
+                  </p>
+                  <div
+                    class="price d-flex flex-row justify-content-between w-100 align-items-center"
+                  >
+                    <span class="ms-2 text-white fs-3 fw-bold">$668</span>
+                    <span
+                      class="me-2 rounded bg-main text-white pt-1 pb-1 ps-3 pe-3 d-flex align-items-center fw-bold uppercase buy-btn"
+                    >
+                      <a
+                        target="_blank"
+                        href="https://www.amazon.com/dp/B07K5TCHB1?tag=gsmarena093-20&linkCode=osi&th=1&psc=1"
+                      >
+                        Buy Now
+                      </a>
+                    </span>
+                  </div>
+                </div>
+              </div>
+              <div
+                class="col-12 col-xl-3 overflow-hidden box position-relative"
+              >
+                <img
+                  src="img/MacBook-Pro.jpg"
+                  class="img-fluid m-auto"
+                  alt=""
+                />
+                <div
+                  class="text position-absolute bg-h top-100 start-0 d-flex h-100 text-center w-100 p-3 justify-content-center align-items-center flex-column"
+                >
+                  <h2 class="text-main mt-2">MacBook Pro</h2>
+                  <p class="text-white-50">
+                    Supercharged for pros. The most powerful MacBook Pro ever is
+                    here. With the blazing-fast M1 Pro or M1 Max chip
+                    <a
+                      target="_blank"
+                      href="https://www.apple.com/macbook-pro-14-and-16/"
+                      class="d-inline text-main"
+                    >
+                      Learn More.
+                    </a>
+                  </p>
+                  <div
+                    class="price d-flex flex-row justify-content-between w-100 align-items-center"
+                  >
+                    <span class="ms-2 text-white fs-3 fw-bold">$1199</span>
+                    <span
+                      class="me-2 rounded bg-main text-white pt-1 pb-1 ps-3 pe-3 d-flex align-items-center fw-bold uppercase buy-btn"
+                    >
+                      <a
+                        target="_blank"
+                        href="https://www.apple.com/shop/buy-mac/macbook-pro/14-inch"
+                      >
+                        Buy Now
+                      </a>
+                    </span>
+                  </div>
+                </div>
+              </div>
+              <div
+                class="col-12 col-xl-3 overflow-hidden box position-relative"
+              >
+                <img
+                  src="img/MateBook-X-Pro.jpg"
+                  class="img-fluid m-auto"
+                  alt=""
+                />
+                <div
+                  class="text position-absolute bg-h top-100 start-0 d-flex h-100 text-center w-100 p-3 justify-content-center align-items-center flex-column"
+                >
+                  <h2 class="text-main mt-2">MateBook Pro</h2>
+                  <p class="text-white-50">
+                    Set the screen back easily with seamless keyboard adjustment
+                    for the perfect an
+                    <a
+                      target="_blank"
+                      href="https://consumer.huawei.com/eg-en/laptops/matebook-e-2022/"
+                      class="d-inline text-main"
+                    >
+                      Learn More.
+                    </a>
+                  </p>
+                  <div
+                    class="price d-flex flex-row justify-content-between w-100 align-items-center"
+                  >
+                    <span class="ms-2 text-white fs-3 fw-bold">$1239</span>
+                    <span
+                      class="me-2 rounded bg-main text-white pt-1 pb-1 ps-3 pe-3 d-flex align-items-center fw-bold uppercase buy-btn"
+                    >
+                      <a
+                        target="_blank"
+                        href="https://consumer.huawei.com/eg-en/laptops/matebook-e-2022/buy//"
+                      >
+                        Buy Now
+                      </a>
+                    </span>
+                  </div>
+                </div>
+              </div>
+              <div
+                class="col-12 col-xl-3 overflow-hidden box position-relative d-flex justify-content-center align-items-center"
+              >
+                <img src="img/pc-3.jpg" class="img-fluid m-auto" alt="" />
+                <div
+                  class="text position-absolute bg-h top-100 start-0 d-flex h-100 text-center w-100 p-3 justify-content-center align-items-center flex-column"
+                >
+                  <h2 class="text-main mt-2">Heigh PC</h2>
+                  <p class="text-white-50">
+                    Thermaltake LCGS Avalanche 360T AIO Liquid Cooled Gaming PC
+                    (AMD Ryzen ™ 5 5600X 6 -core،
+                    <a
+                      target="_blank"
+                      href="https://www.ubuy.com.eg/ar/product/4L0BFP41C-thermaltake-lcgs-avalanche-360t-aio-liquid-cooled-gaming-pc-amd-ryzen-5-5600x-6-core-ddr4-3600mhz-16gb-rgb-memory-nvidia-geforce-rtx-3060"
+                      class="d-inline text-main"
+                    >
+                      Learn More.
+                    </a>
+                  </p>
+                  <div
+                    class="price d-flex flex-row justify-content-between w-100 align-items-center"
+                  >
+                    <span class="ms-2 text-white fs-3 fw-bold">$1671</span>
+                    <span
+                      class="me-2 rounded bg-main text-white pt-1 pb-1 ps-3 pe-3 d-flex align-items-center fw-bold uppercase buy-btn"
+                    >
+                      <a
+                        target="_blank"
+                        href="https://www.ubuy.com.eg/ar/product/4L0BFP41C-thermaltake-lcgs-avalanche-360t-aio-liquid-cooled-gaming-pc-amd-ryzen-5-5600x-6-core-ddr4-3600mhz-16gb-rgb-memory-nvidia-geforce-rtx-3060"
+                      >
+                        Buy Now
+                      </a>
+                    </span>
+                  </div>
+                </div>
+              </div>
+              <div
+                class="col-12 col-xl-3 overflow-hidden box position-relative d-flex justify-content-center align-items-center"
+              >
+                <img src="img/pc-6.jpg" class="img-fluid m-auto" alt="" />
+                <div
+                  class="text position-absolute bg-h top-100 start-0 d-flex h-100 text-center w-100 p-3 justify-content-center align-items-center flex-column"
+                >
+                  <h2 class="text-main mt-2">Heigh PC</h2>
+                  <p class="text-white-50">
+                    Skytech Azure Gaming PC Desktop - AMD Ryzen 5 3600 3.6GHz ،
+                    RTX 3070 8GB ، 16
+                    <a
+                      target="_blank"
+                      href="https://www.ubuy.com.eg/ar/product/1GEIDSU6S-skytech-azure-gaming-pc-desktop-amd-ryzen-5-3600-3-60-ghz-rtx-3070-8-gb-16-gb-ddr4-3000-1-tb-nvme-ssd-b450-motherboard-650w-gold-psu-windows"
+                      class="d-inline text-main"
+                    >
+                      Learn More.
+                    </a>
+                  </p>
+                  <div
+                    class="price d-flex flex-row justify-content-between w-100 align-items-center"
+                  >
+                    <span class="ms-2 text-white fs-3 fw-bold">$2420.29</span>
+                    <span
+                      class="me-2 rounded bg-main text-white pt-1 pb-1 ps-3 pe-3 d-flex align-items-center fw-bold uppercase buy-btn"
+                    >
+                      <a
+                        target="_blank"
+                        href="https://www.ubuy.com.eg/ar/product/1GEIDSU6S-skytech-azure-gaming-pc-desktop-amd-ryzen-5-3600-3-60-ghz-rtx-3070-8-gb-16-gb-ddr4-3000-1-tb-nvme-ssd-b450-motherboard-650w-gold-psu-windows"
+                      >
+                        Buy Now
+                      </a>
+                    </span>
+                  </div>
+                </div>
+              </div>
+              <div
+                class="col-12 col-xl-3 overflow-hidden box position-relative d-flex justify-content-center align-items-center"
+              >
+                <img src="img/Ipad-Pro.jpg" class="img-fluid m-auto" alt="" />
+                <div
+                  class="text position-absolute bg-h top-100 start-0 d-flex h-100 text-center w-100 p-3 justify-content-center align-items-center flex-column"
+                >
+                  <h2 class="text-main mt-2 text-uppercase">Ipad pro 2021</h2>
+                  <p class="text-white-50">
+                    The ultimate iPad experience. Now with breakthrough M1
+                    performance, a breathtaking XDR display,
+                    <a
+                      target="_blank"
+                      href="https://www.apple.com/ipad-pro/"
+                      class="d-inline text-main"
+                    >
+                      Learn More.
+                    </a>
+                  </p>
+                  <div
+                    class="price d-flex flex-row justify-content-between w-100 align-items-center"
+                  >
+                    <span class="ms-2 text-white fs-3 fw-bold">$799.99</span>
+                    <span
+                      class="me-2 rounded bg-main text-white pt-1 pb-1 ps-3 pe-3 d-flex align-items-center fw-bold uppercase buy-btn"
+                    >
+                      <a
+                        target="_blank"
+                        href="https://www.apple.com/shop/buy-ipad/ipad-pro"
+                      >
+                        Buy Now
+                      </a>
+                    </span>
+                  </div>
+                </div>
+              </div>
+              <div
+                class="col-12 col-xl-3 overflow-hidden box position-relative d-flex justify-content-center align-items-center"
+              >
+                <img
+                  src="img/Huawei-MatePad-pro.jpg"
+                  class="img-fluid m-auto"
+                  alt=""
+                />
+                <div
+                  class="text position-absolute bg-h top-100 start-0 d-flex h-100 text-center w-100 p-3 justify-content-center align-items-center flex-column"
+                >
+                  <h2 class="text-main mt-2">MatePad PRO</h2>
+                  <p class="text-white-50">
+                    Inspirations from Nature Capturing beautiful colours from
+                    nature, HUAWEI MatePad Pro 5G comes in
+                    <a
+                      target="_blank"
+                      href="https://consumer.huawei.com/en/tablets/matepad-pro-5g/"
+                      class="d-inline text-main"
+                    >
+                      Learn More.
+                    </a>
+                  </p>
+                  <div
+                    class="price d-flex flex-row justify-content-between w-100 align-items-center"
+                  >
+                    <span class="ms-2 text-white fs-3 fw-bold">$1329</span>
+                    <span
+                      class="me-2 rounded bg-main text-white pt-1 pb-1 ps-3 pe-3 d-flex align-items-center fw-bold uppercase buy-btn"
+                    >
+                      <a
+                        target="_blank"
+                        href="https://www.amazon.com/Huawei-MatePad-10-8-inches-Display-128GB/dp/B083MZ9NKF"
+                      >
+                        Buy Now
+                      </a>
+                    </span>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="phones pt-5 pb-5 d-none devices">
+            <div class="row">
+              <div
+                class="col-12 col-xl-3 overflow-hidden box position-relative"
+              >
+                <img src="img/iphone12.JPG" class="img-fluid m-auto" alt="" />
+                <div
+                  class="text position-absolute bg-h top-100 start-0 d-flex h-100 text-center w-100 p-3 justify-content-center align-items-center flex-column"
+                >
+                  <h2 class="text-main uppercase mt-2">iphone12</h2>
+                  <p class="text-white-50">
+                    A superpowerful chip. 5G speed. An advanced dual‑camera
+                    system. A Ceramic Shield front that's tougher than any
+                    smartphone
+                    <a
+                      target="_blank"
+                      href="https://www.apple.com/iphone-12/key-features/"
+                      class="d-inline text-main"
+                    >
+                      Learn More.
+                    </a>
+                  </p>
+                  <div
+                    class="price d-flex flex-row justify-content-between w-100 align-items-center"
+                  >
+                    <span class="ms-2 text-white fs-3 fw-bold">$599</span>
+                    <span
+                      class="me-2 rounded bg-main text-white pt-1 pb-1 ps-3 pe-3 d-flex align-items-center fw-bold uppercase buy-btn"
+                    >
+                      <a
+                        target="_blank"
+                        href="https://www.apple.com/shop/buy-iphone/iphone-12"
+                      >
+                        Buy Now
+                      </a>
+                    </span>
+                  </div>
+                </div>
+              </div>
+              <div
+                class="col-12 col-xl-3 overflow-hidden box position-relative"
+              >
+                <img
+                  src="img/iphone12pro.jpg"
+                  class="img-fluid m-auto"
+                  alt=""
+                />
+                <div
+                  class="text position-absolute bg-h top-100 start-0 d-flex h-100 text-center w-100 p-3 justify-content-center align-items-center flex-column"
+                >
+                  <h2 class="text-main uppercase mt-2">iphone12 Pro</h2>
+                  <p class="text-white-50">
+                    A dramatically more powerful camera system. A display so
+                    responsive, every interaction feels new again. The world’s
+                    fastest smartphone chip.
+                    <a
+                      target="_blank"
+                      href="https://www.apple.com/iphone-12-pro/"
+                      class="d-inline text-main"
+                    >
+                      Learn More.
+                    </a>
+                  </p>
+                  <div
+                    class="price d-flex flex-row justify-content-between w-100 align-items-center"
+                  >
+                    <span class="ms-2 text-white fs-3 fw-bold">$809</span>
+                    <span
+                      class="me-2 rounded bg-main text-white pt-1 pb-1 ps-3 pe-3 d-flex align-items-center fw-bold uppercase buy-btn"
+                    >
+                      <a
+                        target="_blank"
+                        href="https://www.amazon.com/Apple-iPhone-12-Pro-Pacific/dp/B09JFNMBWL/ref=sr_1_1?keywords=iphone+12+pro&qid=1653321078&sr=8-1"
+                      >
+                        Buy Now
+                      </a>
+                    </span>
+                  </div>
+                </div>
+              </div>
+              <div
+                class="col-12 col-xl-3 overflow-hidden box position-relative d-flex justify-content-center align-items-center"
+              >
+                <img src="img/iphone13.jpg" class="img-fluid m-auto" alt="" />
+                <div
+                  class="text position-absolute bg-h top-100 start-0 d-flex h-100 text-center w-100 p-3 justify-content-center align-items-center flex-column"
+                >
+                  <h2 class="text-main uppercase mt-2">iphone13</h2>
+                  <p class="text-white-50">
+                    Our most advanced dual‑camera system ever. Durability that’s
+                    front and center. And edge to edge. A lightning-fast chip
+                    that speeds up everything you do.
+                    <a
+                      target="_blank"
+                      href="https://www.apple.com/iphone-13/"
+                      class="d-inline text-main"
+                    >
+                      Learn More.
+                    </a>
+                  </p>
+                  <div
+                    class="price d-flex flex-row justify-content-between w-100 align-items-center"
+                  >
+                    <span class="ms-2 text-white fs-3 fw-bold">$699</span>
+                    <span
+                      class="me-2 rounded bg-main text-white pt-1 pb-1 ps-3 pe-3 d-flex align-items-center fw-bold uppercase buy-btn"
+                    >
+                      <a
+                        target="_blank"
+                        href="https://www.apple.com/iphone-13/"
+                      >
+                        Buy Now
+                      </a>
+                    </span>
+                  </div>
+                </div>
+              </div>
+              <div
+                class="col-12 col-xl-3 overflow-hidden box position-relative"
+              >
+                <img
+                  src="img/iphone13pro.jpg"
+                  class="img-fluid m-auto"
+                  alt=""
+                />
+                <div
+                  class="text position-absolute bg-h top-100 start-0 d-flex h-100 text-center w-100 p-3 justify-content-center align-items-center flex-column"
+                >
+                  <h2 class="text-main uppercase mt-2">iphone13</h2>
+                  <p class="text-white-50">
+                    A dramatically more powerful camera system. A display so
+                    responsive, every interaction feels new again. The world’s
+                    fastest smartphone chip.
+                    <a
+                      target="_blank"
+                      href="https://www.apple.com/iphone-13-pro/"
+                      class="d-inline text-main"
+                    >
+                      Learn More.
+                    </a>
+                  </p>
+                  <div
+                    class="price d-flex flex-row justify-content-between w-100 align-items-center"
+                  >
+                    <span class="ms-2 text-white fs-3 fw-bold">$999</span>
+                    <span
+                      class="me-2 rounded bg-main text-white pt-1 pb-1 ps-3 pe-3 d-flex align-items-center fw-bold uppercase buy-btn"
+                    >
+                      <a
+                        target="_blank"
+                        href="https://www.apple.com/shop/buy-iphone/iphone-13-pro"
+                      >
+                        Buy Now
+                      </a>
+                    </span>
+                  </div>
+                </div>
+              </div>
+              <div
+                class="col-12 col-xl-3 overflow-hidden box position-relative d-flex justify-content-center align-items-center"
+              >
+                <img src="img/glaxy-fold.jpg" class="img-fluid m-auto" alt="" />
+                <div
+                  class="text position-absolute bg-h top-100 start-0 d-flex h-100 text-center w-100 p-3 justify-content-center align-items-center flex-column"
+                >
+                  <h2 class="text-main uppercase mt-2">glaxy z fold3</h2>
+                  <p class="text-white-50">
+                    Flex it, leave it, then join a video call and chat
+                    hands-free. View your latest pics on the left panel as you
+                    frame your
+                    <a
+                      target="_blank"
+                      href="https://www.samsung.com/us/smartphones/galaxy-z-fold3-5g/"
+                      class="d-inline text-main"
+                    >
+                      Learn More.
+                    </a>
+                  </p>
+                  <div
+                    class="price d-flex flex-row justify-content-between w-100 align-items-center"
+                  >
+                    <span class="ms-2 text-white fs-3 fw-bold">$699.99</span>
+                    <span
+                      class="me-2 rounded bg-main text-white pt-1 pb-1 ps-3 pe-3 d-flex align-items-center fw-bold uppercase buy-btn"
+                    >
+                      <a
+                        target="_blank"
+                        href="https://www.samsung.com/us/smartphones/galaxy-z-fold3-5g/buy/galaxy-z-fold3-5g-256gb-unlocked-sm-f926uzkaxaa/"
+                      >
+                        Buy Now
+                      </a>
+                    </span>
+                  </div>
+                </div>
+              </div>
+              <div
+                class="col-12 col-xl-3 overflow-hidden box position-relative d-flex justify-content-center align-items-center"
+              >
+                <img
+                  src="img/glaxy-s22-ultra.jpg"
+                  class="img-fluid m-auto"
+                  alt=""
+                />
+                <div
+                  class="text position-absolute bg-h top-100 start-0 d-flex h-100 text-center w-100 p-3 justify-content-center align-items-center flex-column"
+                >
+                  <h2 class="text-main uppercase mt-2">iphone12</h2>
+                  <p class="text-white-50">
+                    Our fastest processor ever Nightography camera Way beyond
+                    all-day battery1
+                    <a
+                      target="_blank"
+                      href="https://www.samsung.com/us/smartphones/galaxy-s22-ultra/"
+                      class="d-inline text-main"
+                    >
+                      Learn More.
+                    </a>
+                  </p>
+                  <div
+                    class="price d-flex flex-row justify-content-between w-100 align-items-center"
+                  >
+                    <span class="ms-2 text-white fs-3 fw-bold">$399.99</span>
+                    <span
+                      class="me-2 rounded bg-main text-white pt-1 pb-1 ps-3 pe-3 d-flex align-items-center fw-bold uppercase buy-btn"
+                    >
+                      <a
+                        target="_blank"
+                        href="https://www.samsung.com/us/smartphones/galaxy-s22-ultra/buy/galaxy-s22-ultra-512gb-unlocked-sm-s908udrfxaa/?modelCode=SM-S908UDRFXAA"
+                      >
+                        Buy Now
+                      </a>
+                    </span>
+                  </div>
+                </div>
+              </div>
+              <div
+                class="col-12 col-xl-3 overflow-hidden box position-relative d-flex justify-content-center align-items-center"
+              >
+                <img src="img/findX.jpg" class="img-fluid m-auto" alt="" />
+                <div
+                  class="text position-absolute bg-h top-100 start-0 d-flex h-100 text-center w-100 p-3 justify-content-center align-items-center flex-column"
+                >
+                  <h2 class="text-main uppercase mt-2">Oppo find X</h2>
+                  <p class="text-white-50">
+                    Panoramic Arc Screen A visual revolution OPPO Find X is the
+                    world’s first panoramic designed phone,
+                    <a
+                      target="_blank"
+                      href="https://www.oppo.com/en/smartphones/series-find-x/find-x/"
+                      class="d-inline text-main"
+                    >
+                      Learn More.
+                    </a>
+                  </p>
+                  <div
+                    class="price d-flex flex-row justify-content-between w-100 align-items-center"
+                  >
+                    <span class="ms-2 text-white fs-3 fw-bold">$668</span>
+                    <span
+                      class="me-2 rounded bg-main text-white pt-1 pb-1 ps-3 pe-3 d-flex align-items-center fw-bold uppercase buy-btn"
+                    >
+                      <a
+                        target="_blank"
+                        href="https://www.amazon.com/dp/B07K5TCHB1?tag=gsmarena093-20&linkCode=osi&th=1&psc=1"
+                      >
+                        Buy Now
+                      </a>
+                    </span>
+                  </div>
+                </div>
+              </div>
+              <div
+                class="col-12 col-xl-3 overflow-hidden box position-relative"
+              >
+                <img src="img/find-x5.jpg" class="img-fluid m-auto" alt="" />
+                <div
+                  class="text position-absolute bg-h top-100 start-0 d-flex h-100 text-center w-100 p-3 justify-content-center align-items-center flex-column"
+                >
+                  <h2 class="text-main uppercase mt-2">oppo find x5</h2>
+                  <p class="text-white-50">
+                    OPPO Find X5’s streamlined curve is made possible with
+                    frosting matte glass, creating a silky gloss which feels
+                    incredible
+                    <a
+                      target="_blank"
+                      href="https://www.oppo.com/en/smartphones/series-find-x/find-x5/"
+                      class="d-inline text-main"
+                    >
+                      Learn More.
+                    </a>
+                  </p>
+                  <div
+                    class="price d-flex flex-row justify-content-between w-100 align-items-center"
+                  >
+                    <span class="ms-2 text-white fs-3 fw-bold">$1299</span>
+                    <span
+                      class="me-2 rounded bg-main text-white pt-1 pb-1 ps-3 pe-3 d-flex align-items-center fw-bold uppercase buy-btn"
+                    >
+                      <a
+                        target="_blank"
+                        href="https://www.amazon.com/Oppo-Find-256GB-Factory-Unlocked/dp/B09SQB1HDM"
+                      >
+                        Buy Now
+                      </a>
+                    </span>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="laptops pt-5 pb-5 d-none devices">
+            <div class="row">
+              <div
+                class="col-12 col-xl-3 overflow-hidden box position-relative"
+              >
+                <img
+                  src="img/MacBook-Pro.jpg"
+                  class="img-fluid m-auto"
+                  alt=""
+                />
+                <div
+                  class="text position-absolute bg-h top-100 start-0 d-flex h-100 text-center w-100 p-3 justify-content-center align-items-center flex-column"
+                >
+                  <h2 class="text-main mt-2">MacBook Pro</h2>
+                  <p class="text-white-50">
+                    Supercharged for pros. The most powerful MacBook Pro ever is
+                    here. With the blazing-fast M1 Pro or M1 Max chip
+                    <a
+                      target="_blank"
+                      href="https://www.apple.com/macbook-pro-14-and-16/"
+                      class="d-inline text-main"
+                    >
+                      Learn More.
+                    </a>
+                  </p>
+                  <div
+                    class="price d-flex flex-row justify-content-between w-100 align-items-center"
+                  >
+                    <span class="ms-2 text-white fs-3 fw-bold">$1999</span>
+                    <span
+                      class="me-2 rounded bg-main text-white pt-1 pb-1 ps-3 pe-3 d-flex align-items-center fw-bold uppercase buy-btn"
+                    >
+                      <a
+                        target="_blank"
+                        href="https://www.apple.com/shop/buy-mac/macbook-pro/14-inch"
+                      >
+                        Buy Now
+                      </a>
+                    </span>
+                  </div>
+                </div>
+              </div>
+              <div
+                class="col-12 col-xl-3 overflow-hidden box position-relative d-flex justify-content-center align-items-center"
+              >
+                <img
+                  src="img/MacBook-Air.jpg"
+                  class="img-fluid m-auto"
+                  alt=""
+                />
+                <div
+                  class="text position-absolute bg-h top-100 start-0 d-flex h-100 text-center w-100 p-3 justify-content-center align-items-center flex-column"
+                >
+                  <h2 class="text-main mt-2">MacBook Air</h2>
+                  <p class="text-white-50">
+                    Power. It’s in the Air. Our thinnest, lightest notebook,
+                    completely transformed by the Apple M1 chip.
+                    <a
+                      target="_blank"
+                      href="https://www.apple.com/macbook-air/"
+                      class="d-inline text-main"
+                    >
+                      Learn More.
+                    </a>
+                  </p>
+                  <div
+                    class="price d-flex flex-row justify-content-between w-100 align-items-center"
+                  >
+                    <span class="ms-2 text-white fs-3 fw-bold">$999</span>
+                    <span
+                      class="me-2 rounded bg-main text-white pt-1 pb-1 ps-3 pe-3 d-flex align-items-center fw-bold uppercase buy-btn"
+                    >
+                      <a
+                        target="_blank"
+                        href="https://www.apple.com/shop/buy-mac/macbook-air"
+                      >
+                        Buy Now
+                      </a>
+                    </span>
+                  </div>
+                </div>
+              </div>
+              <div
+                class="col-12 col-xl-3 overflow-hidden box position-relative"
+              >
+                <img
+                  src="img/MateBook-X-Pro.jpg"
+                  class="img-fluid m-auto"
+                  alt=""
+                />
+                <div
+                  class="text position-absolute bg-h top-100 start-0 d-flex h-100 text-center w-100 p-3 justify-content-center align-items-center flex-column"
+                >
+                  <h2 class="text-main uppercase mt-2">MateBook Pro</h2>
+                  <p class="text-white-50">
+                    Set the screen back easily with seamless keyboard adjustment
+                    for the perfect an
+                    <a
+                      target="_blank"
+                      href="https://consumer.huawei.com/eg-en/laptops/matebook-e-2022/"
+                      class="d-inline text-main"
+                    >
+                      Learn More.
+                    </a>
+                  </p>
+                  <div
+                    class="price d-flex flex-row justify-content-between w-100 align-items-center"
+                  >
+                    <span class="ms-2 text-white fs-3 fw-bold">$1239</span>
+                    <span
+                      class="me-2 rounded bg-main text-white pt-1 pb-1 ps-3 pe-3 d-flex align-items-center fw-bold uppercase buy-btn"
+                    >
+                      <a
+                        target="_blank"
+                        href="https://consumer.huawei.com/eg-en/laptops/matebook-e-2022/buy//"
+                      >
+                        Buy Now
+                      </a>
+                    </span>
+                  </div>
+                </div>
+              </div>
+              <div
+                class="col-12 col-xl-3 overflow-hidden box position-relative"
+              >
+                <img
+                  src="img/MSI-Creator-15.jpg"
+                  class="img-fluid m-auto"
+                  alt=""
+                />
+                <div
+                  class="text position-absolute bg-h top-100 start-0 d-flex h-100 text-center w-100 p-3 justify-content-center align-items-center flex-column"
+                >
+                  <h2 class="text-main uppercase mt-2">MSI Creator 15</h2>
+                  <p class="text-white-50">
+                    Create timeless moments Intel Core i7 badge Powered by 11th
+                    Gen. Intel® Core™ i7 processors Unlock your creativity and
+                    create splendid moments.
+                    <a
+                      target="_blank"
+                      href="https://www.msi.com/Content-Creation/Creator-15-A11UX"
+                      class="d-inline text-main"
+                    >
+                      Learn More.
+                    </a>
+                  </p>
+                  <div
+                    class="price d-flex flex-row justify-content-between w-100 align-items-center"
+                  >
+                    <span class="ms-2 text-white fs-3 fw-bold">$1499</span>
+                    <span
+                      class="me-2 rounded bg-main text-white pt-1 pb-1 ps-3 pe-3 d-flex align-items-center fw-bold uppercase buy-btn"
+                    >
+                      <a
+                        target="_blank"
+                        href="https://www.amazon.com/MSI-Creator-15M-A9SD-044-GTX1660Ti/dp/B07YTFGXS3"
+                      >
+                        Buy Now
+                      </a>
+                    </span>
+                  </div>
+                </div>
+              </div>
+              <div
+                class="col-12 col-xl-3 overflow-hidden box position-relative"
+              >
+                <img src="img/Dell-XPS15.jpg" class="img-fluid m-auto" alt="" />
+                <div
+                  class="text position-absolute bg-h top-100 start-0 d-flex h-100 text-center w-100 p-3 justify-content-center align-items-center flex-column"
+                >
+                  <h2 class="text-main uppercase mt-2">Dell Xps 15</h2>
+                  <p class="text-white-50">
+                    Stunning display Get immersed in content with bright, color
+                    rich panels with high resolution,
+                    <a
+                      target="_blank"
+                      href="https://www.dell.com/en-us/shop/dell-laptops/new-xps-15-laptop/spd/xps-15-9520-laptop/xn9520cto020s"
+                      class="d-inline text-main"
+                    >
+                      Learn More.
+                    </a>
+                  </p>
+                  <div
+                    class="price d-flex flex-row justify-content-between w-100 align-items-center"
+                  >
+                    <span class="ms-2 text-white fs-3 fw-bold">$1899</span>
+                    <span
+                      class="me-2 rounded bg-main text-white pt-1 pb-1 ps-3 pe-3 d-flex align-items-center fw-bold uppercase buy-btn"
+                    >
+                      <a
+                        target="_blank"
+                        href="https://www.dell.com/en-us/shop/dell-laptops/new-xps-15-laptop/spd/xps-15-9520-laptop/xn9520cto020s"
+                      >
+                        Buy Now
+                      </a>
+                    </span>
+                  </div>
+                </div>
+              </div>
+              <div
+                class="col-12 col-xl-3 overflow-hidden box position-relative"
+              >
+                <img src="img/HP-14S.jpg" class="img-fluid m-auto" alt="" />
+                <div
+                  class="text position-absolute bg-h top-100 start-0 d-flex h-100 text-center w-100 p-3 justify-content-center align-items-center flex-column"
+                >
+                  <h2 class="text-main uppercase mt-2">HP Pavilion Aero</h2>
+                  <p class="text-white-50">
+                    Nothing will hold you back with the HP Pavilion Aero Laptop.
+                    Incredibly lightweight and packs a punch to the most
+                    demanding tasks at
+                    <a
+                      target="_blank"
+                      href="https://www.hp.com/us-en/shop/pdp/hp-pavilion-aero-laptop-13z-be100-502q9av-1"
+                      class="d-inline text-main"
+                    >
+                      Learn More.
+                    </a>
+                  </p>
+                  <div
+                    class="price d-flex flex-row justify-content-between w-100 align-items-center"
+                  >
+                    <span class="ms-2 text-white fs-3 fw-bold">$549.99</span>
+                    <span
+                      class="me-2 rounded bg-main text-white pt-1 pb-1 ps-3 pe-3 d-flex align-items-center fw-bold uppercase buy-btn"
+                    >
+                      <a
+                        target="_blank"
+                        href="https://www.hp.com/us-en/shop/pdp/hp-pavilion-aero-laptop-13z-be100-502q9av-1"
+                      >
+                        Buy Now
+                      </a>
+                    </span>
+                  </div>
+                </div>
+              </div>
+              <div
+                class="col-12 col-xl-3 overflow-hidden box position-relative"
+              >
+                <img
+                  src="img/Lenovo-IdeaPad-Slim7.jpg"
+                  class="img-fluid m-auto"
+                  alt=""
+                />
+                <div
+                  class="text position-absolute bg-h top-100 start-0 d-flex h-100 text-center w-100 p-3 justify-content-center align-items-center flex-column"
+                >
+                  <h2 class="text-main mt-2">Lenovo Slim 7</h2>
+                  <p class="text-white-50">
+                    Slim performance, powered by AMD Features powerful &
+                    responsive AMD Ryzen™ 4000 Series
+                    <a
+                      target="_blank"
+                      href="https://www.lenovo.com/us/en/p/laptops/ideapad/ideapad-700-series/ideapad-slim-7-14are05/88ips701400?orgRef=https%253A%252F%252Fwww.google.com%252F"
+                      class="d-inline text-main"
+                    >
+                      Learn More.
+                    </a>
+                  </p>
+                  <div
+                    class="price d-flex flex-row justify-content-between w-100 align-items-center"
+                  >
+                    <span class="ms-2 text-white fs-3 fw-bold">$1099.99</span>
+                    <span
+                      class="me-2 rounded bg-main text-white pt-1 pb-1 ps-3 pe-3 d-flex align-items-center fw-bold uppercase buy-btn"
+                    >
+                      <a
+                        target="_blank"
+                        href="https://www.amazon.com/Lenovo-IdeaPad-Laptop-i7-1065G7-Graphics/dp/B08P845TP2"
+                      >
+                        Buy Now
+                      </a>
+                    </span>
+                  </div>
+                </div>
+              </div>
+              <div
+                class="col-12 col-xl-3 overflow-hidden box position-relative"
+              >
+                <img src="img/VaioE15.jpg" class="img-fluid m-auto" alt="" />
+                <div
+                  class="text position-absolute bg-h top-100 start-0 d-flex h-100 text-center w-100 p-3 justify-content-center align-items-center flex-column"
+                >
+                  <h2 class="text-main mt-2">Vaio E15</h2>
+                  <p class="text-white-50">
+                    Powered by AMD RyzenTM mobile processors, VAIO®️ E15 model
+                    offer an uncompromised performance, as well as an ergonomic
+                    form factor and lightweight design.
+                    <a
+                      target="_blank"
+                      href="https://my.vaio.com/product/e15/overview"
+                      class="d-inline text-main"
+                    >
+                      Learn More.
+                    </a>
+                  </p>
+                  <div
+                    class="price d-flex flex-row justify-content-between w-100 align-items-center"
+                  >
+                    <span class="ms-2 text-white fs-3 fw-bold">$689.55</span>
+                    <span
+                      class="me-2 rounded bg-main text-white pt-1 pb-1 ps-3 pe-3 d-flex align-items-center fw-bold uppercase buy-btn"
+                    >
+                      <a
+                        target="_blank"
+                        href="https://www.amazon.com/Sony-VAIO-SVE15126CXP-15-5-Inch-Laptop/dp/B009HPGJ4A/ref=cm_cr_arp_d_product_top?ie=UTF8"
+                      >
+                        Buy Now
+                      </a>
+                    </span>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="computers pt-5 pb-5 d-none devices">
+            <div class="row">
+              <div
+                class="col-12 col-xl-3 overflow-hidden box position-relative d-flex justify-content-center align-items-center"
+              >
+                <img
+                  src="img/Studio -Display.jpg"
+                  class="img-fluid m-auto"
+                  alt=""
+                />
+                <div
+                  class="text position-absolute bg-h top-100 start-0 d-flex h-100 text-center w-100 p-3 justify-content-center align-items-center flex-column"
+                >
+                  <h2 class="text-main mt-2">Studio Display</h2>
+                  <p class="text-white-50">
+                    See what you can do. A big, beautiful window into new
+                    worlds, Studio Display draws you in from the moment you turn
+                    it on.
+                    <a
+                      target="_blank"
+                      href="https://www.apple.com/studio-display/"
+                      class="d-inline text-main"
+                    >
+                      Learn More.
+                    </a>
+                  </p>
+                  <div
+                    class="price d-flex flex-row justify-content-between w-100 align-items-center"
+                  >
+                    <span class="ms-2 text-white fs-3 fw-bold">$1599</span>
+                    <span
+                      class="me-2 rounded bg-main text-white pt-1 pb-1 ps-3 pe-3 d-flex align-items-center fw-bold uppercase buy-btn"
+                    >
+                      <a
+                        target="_blank"
+                        href="https://www.apple.com/shop/buy-mac/apple-studio-display"
+                      >
+                        Buy Now
+                      </a>
+                    </span>
+                  </div>
+                </div>
+              </div>
+              <div
+                class="col-12 col-xl-3 overflow-hidden box position-relative d-flex justify-content-center align-items-center"
+              >
+                <img src="img/Gaming-PC.jpg" class="img-fluid m-auto" alt="" />
+                <div
+                  class="text position-absolute bg-h top-100 start-0 d-flex h-100 text-center w-100 p-3 justify-content-center align-items-center flex-column"
+                >
+                  <h2 class="text-main mt-2">Gaming PC</h2>
+                  <p class="text-white-50">
+                    Skytech Blaze 3.0 Gaming PC Desktop - AMD Ryzen 7 5800X 8
+                    -core 3.8GHz، RTX 3070 8GB GDDR6,
+                    <a
+                      target="_blank"
+                      href="https://www.ubuy.com.eg/ar/product/1GC2IT8RG-skytech-blaze-3-0-gaming-pc-desktop-amd-ryzen-7-5800x-8-core-3-8ghz-rtx-3070-8gb-gddr6-16gb-ddr4-3200mhz-1tb-gen4-nvme-ssd-240mm-aio-750w-gold"
+                      class="d-inline text-main"
+                    >
+                      Learn More.
+                    </a>
+                  </p>
+                  <div
+                    class="price d-flex flex-row justify-content-between w-100 align-items-center"
+                  >
+                    <span class="ms-2 text-white fs-3 fw-bold">$2761.42</span>
+                    <span
+                      class="me-2 rounded bg-main text-white pt-1 pb-1 ps-3 pe-3 d-flex align-items-center fw-bold uppercase buy-btn"
+                    >
+                      <a
+                        target="_blank"
+                        href="https://www.ubuy.com.eg/ar/product/1GC2IT8RG-skytech-blaze-3-0-gaming-pc-desktop-amd-ryzen-7-5800x-8-core-3-8ghz-rtx-3070-8gb-gddr6-16gb-ddr4-3200mhz-1tb-gen4-nvme-ssd-240mm-aio-750w-gold"
+                      >
+                        Buy Now
+                      </a>
+                    </span>
+                  </div>
+                </div>
+              </div>
+              <div
+                class="col-12 col-xl-3 overflow-hidden box position-relative"
+              >
+                <img src="img/pc-2.JPG" class="img-fluid m-auto" alt="" />
+                <div
+                  class="text position-absolute bg-h top-100 start-0 d-flex h-100 text-center w-100 p-3 justify-content-center align-items-center flex-column"
+                >
+                  <h2 class="text-main mt-2">Economical PC</h2>
+                  <p class="text-white-50">
+                    Gaming PC Desktop Computer by Alarco Intel i5 3.10GHz,8GB
+                    Ram,
+                    <a
+                      target="_blank"
+                      href="https://www.amazon.com/Gaming-Desktop-Computer-3-10GHz-Windows/dp/B07YQCQBJK/ref=sr_1_3?crid=TCG7OU2SF7FL&keywords=PC&qid=1653338334&sprefix=pc%2Caps%2C409&sr=8-3"
+                      class="d-inline text-main"
+                    >
+                      Learn More.
+                    </a>
+                  </p>
+                  <div
+                    class="price d-flex flex-row justify-content-between w-100 align-items-center"
+                  >
+                    <span class="ms-2 text-white fs-3 fw-bold">$499.99</span>
+                    <span
+                      class="me-2 rounded bg-main text-white pt-1 pb-1 ps-3 pe-3 d-flex align-items-center fw-bold uppercase buy-btn"
+                    >
+                      <a
+                        target="_blank"
+                        href="https://www.amazon.com/Gaming-Desktop-Computer-3-10GHz-Windows/dp/B07YQCQBJK/ref=sr_1_3?crid=TCG7OU2SF7FL&keywords=PC&qid=1653338334&sprefix=pc%2Caps%2C409&sr=8-3"
+                      >
+                        Buy Now
+                      </a>
+                    </span>
+                  </div>
+                </div>
+              </div>
+              <div
+                class="col-12 col-xl-3 overflow-hidden box position-relative"
+              >
+                <img
+                  src="img/pc-CustomBuilder.jpg"
+                  class="img-fluid m-auto"
+                  alt=""
+                />
+                <div
+                  class="text position-absolute bg-h top-100 start-0 d-flex h-100 text-center w-100 p-3 justify-content-center align-items-center flex-column"
+                >
+                  <h2 class="text-main mt-2">Custom PC</h2>
+                  <p class="text-white-50">
+                    We build custom PCs around your budget, optimized for the
+                    games you love,
+                    <a
+                      target="_blank"
+                      href="https://nzxt.com/category/gaming-pcs/build"
+                      class="d-inline text-main"
+                    >
+                      Learn More.
+                    </a>
+                  </p>
+                  <div
+                    class="price d-flex flex-row justify-content-between w-100 align-items-center"
+                  >
+                    <span class="ms-2 text-white fs-3 fw-bold">$1499.99</span>
+                    <span
+                      class="me-2 rounded bg-main text-white pt-1 pb-1 ps-3 pe-3 d-flex align-items-center fw-bold uppercase buy-btn"
+                    >
+                      <a
+                        target="_blank"
+                        href="https://nzxt.com/category/gaming-pcs/build"
+                      >
+                        Order Now
+                      </a>
+                    </span>
+                  </div>
+                </div>
+              </div>
+              <div
+                class="col-12 col-xl-3 overflow-hidden box position-relative"
+              >
+                <img src="img/pc-1.jpg" class="img-fluid m-auto" alt="" />
+                <div
+                  class="text position-absolute bg-h top-100 start-0 d-flex h-100 text-center w-100 p-3 justify-content-center align-items-center flex-column"
+                >
+                  <h2 class="text-main mt-2">Medium Range PC</h2>
+                  <p class="text-white-50">
+                    ASUS ROG Strix GL10 Gaming Desktop، AMD Ryzen 5 -3600X،
+                    NVIDIA GeForce GTX 1660TI، 8GB DDR4
+                    <a
+                      target="_blank"
+                      href="https://www.ubuy.com.eg/ar/product/47XXC72PC-asus-rog-strix-g10dk-gaming-desktop-amd-ryzen-5-3600x-nvidia-geforce-gtx-1660ti-8gb-ddr4-ram-256gb-pcie-ssd-windows-10-home-gray-g10dk-wh563"
+                      class="d-inline text-main"
+                    >
+                      Learn More.
+                    </a>
+                  </p>
+                  <div
+                    class="price d-flex flex-row justify-content-between w-100 align-items-center"
+                  >
+                    <span class="ms-2 text-white fs-3 fw-bold">$1060.17</span>
+                    <span
+                      class="me-2 rounded bg-main text-white pt-1 pb-1 ps-3 pe-3 d-flex align-items-center fw-bold uppercase buy-btn"
+                    >
+                      <a
+                        target="_blank"
+                        href="https://www.ubuy.com.eg/ar/product/47XXC72PC-asus-rog-strix-g10dk-gaming-desktop-amd-ryzen-5-3600x-nvidia-geforce-gtx-1660ti-8gb-ddr4-ram-256gb-pcie-ssd-windows-10-home-gray-g10dk-wh563"
+                      >
+                        Buy Now
+                      </a>
+                    </span>
+                  </div>
+                </div>
+              </div>
+              <div
+                class="col-12 col-xl-3 overflow-hidden box position-relative"
+              >
+                <img src="img/pc-4.jpg" class="img-fluid m-auto" alt="" />
+                <div
+                  class="text position-absolute bg-h top-100 start-0 d-flex h-100 text-center w-100 p-3 justify-content-center align-items-center flex-column"
+                >
+                  <h2 class="text-main mt-2">Medium Range PC</h2>
+                  <p class="text-white-50">
+                    SkyTech Chronos Mini Gaming Computer PC Desktop - Intel
+                    Core-i3 10100F 3.6GHz, GTX 1650 4G
+                    <a
+                      target="_blank"
+                      href="https://www.ubuy.com.eg/ar/product/414QM1B5M-skytech-chronos-mini-gaming-computer-pc-desktop-intel-core-i3-10100f-3-6ghz-gtx-1650-4g-500gb-ssd-8g-3000-rgb-fans-ac-wifi-windows-10-home"
+                      class="d-inline text-main"
+                    >
+                      Learn More.
+                    </a>
+                  </p>
+                  <div
+                    class="price d-flex flex-row justify-content-between w-100 align-items-center"
+                  >
+                    <span class="ms-2 text-white fs-3 fw-bold">$1384</span>
+                    <span
+                      class="me-2 rounded bg-main text-white pt-1 pb-1 ps-3 pe-3 d-flex align-items-center fw-bold uppercase buy-btn"
+                    >
+                      <a
+                        target="_blank"
+                        href="https://www.ubuy.com.eg/ar/product/414QM1B5M-skytech-chronos-mini-gaming-computer-pc-desktop-intel-core-i3-10100f-3-6ghz-gtx-1650-4g-500gb-ssd-8g-3000-rgb-fans-ac-wifi-windows-10-home"
+                      >
+                        Buy Now
+                      </a>
+                    </span>
+                  </div>
+                </div>
+              </div>
+              <div
+                class="col-12 col-xl-3 overflow-hidden box position-relative d-flex justify-content-center align-items-center"
+              >
+                <img src="img/pc-3.jpg" class="img-fluid m-auto" alt="" />
+                <div
+                  class="text position-absolute bg-h top-100 start-0 d-flex h-100 text-center w-100 p-3 justify-content-center align-items-center flex-column"
+                >
+                  <h2 class="text-main mt-2">Heigh PC</h2>
+                  <p class="text-white-50">
+                    Thermaltake LCGS Avalanche 360T AIO Liquid Cooled Gaming PC
+                    (AMD Ryzen ™ 5 5600X 6 -core،
+                    <a
+                      target="_blank"
+                      href="https://www.ubuy.com.eg/ar/product/4L0BFP41C-thermaltake-lcgs-avalanche-360t-aio-liquid-cooled-gaming-pc-amd-ryzen-5-5600x-6-core-ddr4-3600mhz-16gb-rgb-memory-nvidia-geforce-rtx-3060"
+                      class="d-inline text-main"
+                    >
+                      Learn More.
+                    </a>
+                  </p>
+                  <div
+                    class="price d-flex flex-row justify-content-between w-100 align-items-center"
+                  >
+                    <span class="ms-2 text-white fs-3 fw-bold">$1671</span>
+                    <span
+                      class="me-2 rounded bg-main text-white pt-1 pb-1 ps-3 pe-3 d-flex align-items-center fw-bold uppercase buy-btn"
+                    >
+                      <a
+                        target="_blank"
+                        href="https://www.ubuy.com.eg/ar/product/4L0BFP41C-thermaltake-lcgs-avalanche-360t-aio-liquid-cooled-gaming-pc-amd-ryzen-5-5600x-6-core-ddr4-3600mhz-16gb-rgb-memory-nvidia-geforce-rtx-3060"
+                      >
+                        Buy Now
+                      </a>
+                    </span>
+                  </div>
+                </div>
+              </div>
+              <div
+                class="col-12 col-xl-3 overflow-hidden box position-relative d-flex justify-content-center align-items-center"
+              >
+                <img src="img/pc-6.jpg" class="img-fluid m-auto" alt="" />
+                <div
+                  class="text position-absolute bg-h top-100 start-0 d-flex h-100 text-center w-100 p-3 justify-content-center align-items-center flex-column"
+                >
+                  <h2 class="text-main mt-2">Heigh PC</h2>
+                  <p class="text-white-50">
+                    Skytech Azure Gaming PC Desktop - AMD Ryzen 5 3600 3.6GHz ،
+                    RTX 3070 8GB ، 16
+                    <a
+                      target="_blank"
+                      href="https://www.ubuy.com.eg/ar/product/1GEIDSU6S-skytech-azure-gaming-pc-desktop-amd-ryzen-5-3600-3-60-ghz-rtx-3070-8-gb-16-gb-ddr4-3000-1-tb-nvme-ssd-b450-motherboard-650w-gold-psu-windows"
+                      class="d-inline text-main"
+                    >
+                      Learn More.
+                    </a>
+                  </p>
+                  <div
+                    class="price d-flex flex-row justify-content-between w-100 align-items-center"
+                  >
+                    <span class="ms-2 text-white fs-3 fw-bold">$2420.29</span>
+                    <span
+                      class="me-2 rounded bg-main text-white pt-1 pb-1 ps-3 pe-3 d-flex align-items-center fw-bold uppercase buy-btn"
+                    >
+                      <a
+                        target="_blank"
+                        href="https://www.ubuy.com.eg/ar/product/1GEIDSU6S-skytech-azure-gaming-pc-desktop-amd-ryzen-5-3600-3-60-ghz-rtx-3070-8-gb-16-gb-ddr4-3000-1-tb-nvme-ssd-b450-motherboard-650w-gold-psu-windows"
+                      >
+                        Buy Now
+                      </a>
+                    </span>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="tablets pt-5 pb-5 d-none devices">
+            <div class="row">
+              <div
+                class="col-12 col-xl-3 overflow-hidden box position-relative"
+              >
+                <img src="img/Ipad-Pro.jpg" class="img-fluid m-auto" alt="" />
+                <div
+                  class="text position-absolute bg-h top-100 start-0 d-flex h-100 text-center w-100 p-3 justify-content-center align-items-center flex-column"
+                >
+                  <h2 class="text-main mt-2 text-uppercase">Ipad pro 2021</h2>
+                  <p class="text-white-50">
+                    The ultimate iPad experience. Now with breakthrough M1
+                    performance, a breathtaking XDR display,
+                    <a
+                      target="_blank"
+                      href="https://www.apple.com/ipad-pro/"
+                      class="d-inline text-main"
+                    >
+                      Learn More.
+                    </a>
+                  </p>
+                  <div
+                    class="price d-flex flex-row justify-content-between w-100 align-items-center"
+                  >
+                    <span class="ms-2 text-white fs-3 fw-bold">$799.99</span>
+                    <span
+                      class="me-2 rounded bg-main text-white pt-1 pb-1 ps-3 pe-3 d-flex align-items-center fw-bold uppercase buy-btn"
+                    >
+                      <a
+                        target="_blank"
+                        href="https://www.apple.com/shop/buy-ipad/ipad-pro"
+                      >
+                        Buy Now
+                      </a>
+                    </span>
+                  </div>
+                </div>
+              </div>
+              <div
+                class="col-12 col-xl-3 overflow-hidden box position-relative"
+              >
+                <img src="img/Ipad-Air.jpg" class="img-fluid m-auto" alt="" />
+                <div
+                  class="text position-absolute bg-h top-100 start-0 d-flex h-100 text-center w-100 p-3 justify-content-center align-items-center flex-column"
+                >
+                  <h2 class="text-main mt-2 text-uppercase">Ipad Air 2021</h2>
+                  <p class="text-white-50">
+                    Light Bright. Full of might. Supercharged by the Apple M1
+                    chip.
+                    <a
+                      target="_blank"
+                      href="https://www.apple.com/ipad-air/"
+                      class="d-inline text-main"
+                    >
+                      Learn More.
+                    </a>
+                  </p>
+                  <div
+                    class="price d-flex flex-row justify-content-between w-100 align-items-center"
+                  >
+                    <span class="ms-2 text-white fs-3 fw-bold">$599.99</span>
+                    <span
+                      class="me-2 rounded bg-main text-white pt-1 pb-1 ps-3 pe-3 d-flex align-items-center fw-bold uppercase buy-btn"
+                    >
+                      <a
+                        target="_blank"
+                        href="https://www.apple.com/shop/buy-ipad/ipad-air"
+                      >
+                        Buy Now
+                      </a>
+                    </span>
+                  </div>
+                </div>
+              </div>
+              <div
+                class="col-12 col-xl-3 overflow-hidden box position-relative"
+              >
+                <img src="img/Ipad-Mini.jpg" class="img-fluid m-auto" alt="" />
+                <div
+                  class="text position-absolute bg-h top-100 start-0 d-flex h-100 text-center w-100 p-3 justify-content-center align-items-center flex-column"
+                >
+                  <h2 class="text-main mt-2 text-uppercase">Ipad mini 2021</h2>
+                  <p class="text-white-50">
+                    New all‑screen design. Powerful A15 Bionic chip. Superfast
+                    5G.
+                    <a
+                      target="_blank"
+                      href="https://www.apple.com/ipad-mini/"
+                      class="d-inline text-main"
+                    >
+                      Learn More.
+                    </a>
+                  </p>
+                  <div
+                    class="price d-flex flex-row justify-content-between w-100 align-items-center"
+                  >
+                    <span class="ms-2 text-white fs-3 fw-bold">$499.99</span>
+                    <span
+                      class="me-2 rounded bg-main text-white pt-1 pb-1 ps-3 pe-3 d-flex align-items-center fw-bold uppercase buy-btn"
+                    >
+                      <a
+                        target="_blank"
+                        href="https://www.apple.com/shop/buy-ipad/ipad-mini"
+                      >
+                        Buy Now
+                      </a>
+                    </span>
+                  </div>
+                </div>
+              </div>
+              <div
+                class="col-12 col-xl-3 overflow-hidden box position-relative"
+              >
+                <img src="img/Ipad9.jpg" class="img-fluid m-auto" alt="" />
+                <div
+                  class="text position-absolute bg-h top-100 start-0 d-flex h-100 text-center w-100 p-3 justify-content-center align-items-center flex-column"
+                >
+                  <h2 class="text-main mt-2 text-uppercase">Ipad ipad 10.2</h2>
+                  <p class="text-white-50">
+                    Powerful. Easy to use. Versatile. The new iPad is designed
+                    for all the things you love to do. Work, play, create,
+                    learn,
+                    <a
+                      target="_blank"
+                      href="https://www.apple.com/ipad-10.2/"
+                      class="d-inline text-main"
+                    >
+                      Learn More.
+                    </a>
+                  </p>
+                  <div
+                    class="price d-flex flex-row justify-content-between w-100 align-items-center"
+                  >
+                    <span class="ms-2 text-white fs-3 fw-bold">$329.99</span>
+                    <span
+                      class="me-2 rounded bg-main text-white pt-1 pb-1 ps-3 pe-3 d-flex align-items-center fw-bold uppercase buy-btn"
+                    >
+                      <a
+                        target="_blank"
+                        href="https://www.apple.com/shop/buy-ipad/ipad-10-2"
+                      >
+                        Buy Now
+                      </a>
+                    </span>
+                  </div>
+                </div>
+              </div>
+              <div
+                class="col-12 col-xl-3 overflow-hidden box position-relative"
+              >
+                <img
+                  src="img/Huawei-MatePad-pro.jpg"
+                  class="img-fluid m-auto"
+                  alt=""
+                />
+                <div
+                  class="text position-absolute bg-h top-100 start-0 d-flex h-100 text-center w-100 p-3 justify-content-center align-items-center flex-column"
+                >
+                  <h2 class="text-main mt-2">MatePad PRO</h2>
+                  <p class="text-white-50">
+                    Inspirations from Nature Capturing beautiful colours from
+                    nature, HUAWEI MatePad Pro 5G comes in
+                    <a
+                      target="_blank"
+                      href="https://consumer.huawei.com/en/tablets/matepad-pro-5g/"
+                      class="d-inline text-main"
+                    >
+                      Learn More.
+                    </a>
+                  </p>
+                  <div
+                    class="price d-flex flex-row justify-content-between w-100 align-items-center"
+                  >
+                    <span class="ms-2 text-white fs-3 fw-bold">$1329</span>
+                    <span
+                      class="me-2 rounded bg-main text-white pt-1 pb-1 ps-3 pe-3 d-flex align-items-center fw-bold uppercase buy-btn"
+                    >
+                      <a
+                        target="_blank"
+                        href="https://www.amazon.com/Huawei-MatePad-10-8-inches-Display-128GB/dp/B083MZ9NKF"
+                      >
+                        Buy Now
+                      </a>
+                    </span>
+                  </div>
+                </div>
+              </div>
+              <div
+                class="col-12 col-xl-3 overflow-hidden box position-relative"
+              >
+                <img
+                  src="img/GlaxyTap-S8Ultra.jpg"
+                  class="img-fluid m-auto"
+                  alt=""
+                />
+                <div
+                  class="text position-absolute bg-h top-100 start-0 d-flex h-100 text-center w-100 p-3 justify-content-center align-items-center flex-column"
+                >
+                  <h2 class="text-main mt-2">Glaxy Tap S8 Ultra</h2>
+                  <p class="text-white-50">
+                    Discover more with expansive display Create more with
+                    included S Pen Capture more with ultra-wide camera
+                    <a
+                      target="_blank"
+                      href="https://www.samsung.com/us/tablets/tab-s8/"
+                      class="d-inline text-main"
+                    >
+                      Learn More.
+                    </a>
+                  </p>
+                  <div
+                    class="price d-flex flex-row justify-content-between w-100 align-items-center"
+                  >
+                    <span class="ms-2 text-white fs-3 fw-bold">$499.99</span>
+                    <span
+                      class="me-2 rounded bg-main text-white pt-1 pb-1 ps-3 pe-3 d-flex align-items-center fw-bold uppercase buy-btn"
+                    >
+                      <a
+                        target="_blank"
+                        href="https://www.samsung.com/us/tablets/galaxy-tab-s8/buy/"
+                      >
+                        Buy Now
+                      </a>
+                    </span>
+                  </div>
+                </div>
+              </div>
+              <div
+                class="col-12 col-xl-3 overflow-hidden box position-relative d-flex justify-content-center align-items-center"
+              >
+                <img
+                  src="img/LenovoTap-P11.jpg"
+                  class="img-fluid m-auto"
+                  alt=""
+                />
+                <div
+                  class="text position-absolute bg-h top-100 start-0 d-flex h-100 text-center w-100 p-3 justify-content-center align-items-center flex-column"
+                >
+                  <h2 class="text-main mt-2">Lenovo Tap P11</h2>
+                  <p class="text-white-50">
+                    Lenovo Tab P11 Pro Next Do it all like a pro Tap into
+                    non-stop entertainment with one of Lenovo's thinnest and
+                    most powerful Android™ tablets.
+                    <a
+                      target="_blank"
+                      href="https://www.lenovo.com/eg/en/tablets/android-tablets/lenovo-tab-series/Lenovo-TB-J706/p/ZZITZTATB0J"
+                      class="d-inline text-main"
+                    >
+                      Learn More.
+                    </a>
+                  </p>
+                  <div
+                    class="price d-flex flex-row justify-content-between w-100 align-items-center"
+                  >
+                    <span class="ms-2 text-white fs-3 fw-bold">$258</span>
+                    <span
+                      class="me-2 rounded bg-main text-white pt-1 pb-1 ps-3 pe-3 d-flex align-items-center fw-bold uppercase buy-btn"
+                    >
+                      <a
+                        target="_blank"
+                        href="https://www.amazon.com/Lenovo-MediaTek-Octa-Core-Processor-Bluetooth/dp/B09B17DVYR"
+                      >
+                        Buy Now
+                      </a>
+                    </span>
+                  </div>
+                </div>
+              </div>
+              <div
+                class="col-12 col-xl-3 overflow-hidden box position-relative d-flex justify-content-center align-items-center flex-column"
+              >
+                <img
+                  src="img/Surface-Pro.jpg"
+                  class="img-fluid m-auto"
+                  alt=""
+                />
+                <div
+                  class="text position-absolute bg-h top-100 start-0 d-flex h-100 text-center w-100 p-3 justify-content-center align-items-center flex-column"
+                >
+                  <h2 class="text-main mt-2">Surface PRO</h2>
+                  <p class="text-white-50">
+                    Unlock more possibilities than ever with the Pro designed
+                    for a Pro like you. The first Surface Pro built on the
+                    Intel® Evo™ platform on
+                    <a
+                      target="_blank"
+                      href="https://www.samsung.com/us/tablets/tab-s8/"
+                      class="d-inline text-main"
+                    >
+                      Learn More.
+                    </a>
+                  </p>
+                  <div
+                    class="price d-flex flex-row justify-content-between w-100 align-items-center"
+                  >
+                    <span class="ms-2 text-white fs-3 fw-bold">$1099.99</span>
+                    <span
+                      class="me-2 rounded bg-main text-white pt-1 pb-1 ps-3 pe-3 d-flex align-items-center fw-bold uppercase buy-btn"
+                    >
+                      <a
+                        target="_blank"
+                        href="https://www.microsoft.com/en-us/d/surface-pro-8/8qwcrtq8v8xg?activetab=pivot%3aoverviewtab"
+                      >
+                        Buy Now
+                      </a>
+                    </span>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="about mt-5 mb-5 p-4" id="about">
+      <div class="container overflow-hidden pt-5 pb-5">
+        <div class="row justify-content-between">
+          <div class="col-12 col-xl-7">
+            <div
+              class="special-title m-auto w-fit text-center pb-4 pt-4 position-relative d-flex justify-content-center align-items-center flex-column"
+            >
+              <h2 class="text-uppercase text-main pb-3">About Us</h2>
+            </div>
+            <p class="text-black-50 mt-5">
+              We Won Your Trust For
+              <script class="Eg" type="module">
+                import { storeHistory as a } from './js/main.js'
+                document.querySelector('.about .Eg').after(a)
+              </script>
+              Years From Our Shops Opend From 2001 This Date Is First And Best
+              Memory For Us This Date That We Opening A First Branch For Us In
+              Egypt On Cairo City, After That Around
+              <script class="UAE" type="module">
+                import { historyUEA as a } from './js/main.js'
+                document.querySelector('.about .UAE').after(a)
+              </script>
+              The UAE Ripo Opened And After That USA Ripo After That Germanny
+              Branch
+            </p>
+          </div>
+          <div class="col-12 col-xl-4 position-relative image">
+            <img src="img/about.jpg" alt="" class="img-fluid" />
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="contact" id="contact">
+      <div class="row m-0">
+        <div
+          class="col-12 col-md-6 image position-relative d-flex p-5 justify-content-center align-items-center image"
+        >
+          <div class="overlay position-absolute w-100 h-100"></div>
+          <div class="text w-fit position-relative text-center">
+            <h1 class="text-white">Hello Everybody</h1>
+            <p class="text-white-50 fw-bold">
+              Here We Recived Your Feadback And Reports And Your Questions And
+              We Will Contact With You On Your Email And Show You Where Is
+              Problem Or See Your Feadback And Try To Fix Our Mistakes
+            </p>
+          </div>
+        </div>
+        <div class="col-12 col-md-6">
+          <div class="container">
+            <form
+              action=""
+              class="d-flex flex-column justify-content-center align-items-center gap-4 w-75 m-auto"
+            >
+              <input type="text" name="email" placeholder="Enter Your Email" />
+              <input type="text" name="Name" placeholder="Enter Your Name" />
+              <textarea
+                cols="20"
+                rows="5"
+                placeholder="Here we recived your feadback & reports & Your Questions"
+              ></textarea>
+              <button class="rounded bg-main text-white p-2 ps-5 pe-5">
+                Send
+              </button>
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="footer bg-dark p-5">
+      <div class="container">
+        <div class="row">
+          <div
+            class="col-12 col-md-4 d-flex justify-content-between flex-column"
+          >
+            <h1 class="navbar-brand text-uppercase pb-4">Random Store</h1>
+            <p class="text-white-50 mt-4 copyright">
+              Created By
+              <span class="text-main">Moustafa</span>
+              In 2021, All Copyright Resaved To
+              <span class="text-main">Him</span>
+            </p>
+          </div>
+          <div class="col-12 col-md-4">
+            <h3 class="pb-2 text-white text-uppercase">Important Links</h3>
+            <ul class="text-white-50 imp-links">
+              <li class="p-1">
+                <a class="text-white-50" href="#">
+                  Importent Link
+                  <script class="count">
+                    let counter = 0
+                    let element = document.querySelectorAll('.count')[counter]
+                    counter++
+                    element.after(counter)
+                  </script>
+                </a>
+              </li>
+              <li class="p-1">
+                <a class="text-white-50" href="#">
+                  Importent Link
+                  <script class="count">
+                    element = document.querySelectorAll('.count')[counter]
+                    counter++
+                    element.after(counter)
+                  </script>
+                </a>
+              </li>
+              <li class="p-1">
+                <a class="text-white-50" href="#">
+                  Importent Link
+                  <script class="count">
+                    element = document.querySelectorAll('.count')[counter]
+                    counter++
+                    element.after(counter)
+                  </script>
+                </a>
+              </li>
+              <li class="p-1">
+                <a class="text-white-50" href="#">
+                  Importent Link
+                  <script class="count">
+                    element = document.querySelectorAll('.count')[counter]
+                    counter++
+                    element.after(counter)
+                  </script>
+                </a>
+              </li>
+            </ul>
+          </div>
+          <div class="col-12 col-md-4">
+            <h3 class="text-white pb-3 text-uppercase">Our Social Media</h3>
+            <p class="text-white-50 text-center-3">
+              Our Social Media Links & Devolper Social Links To Contact With Him
+              If Web Design Liked You
+            </p>
+            <ul
+              class="icon d-flex jutify-content-center align-items-center w-fit m-auto"
+            >
+              <li class="text-white-50 ms-3">
+                <i class="fa-brands fa-github"></i>
+              </li>
+              <li class="text-white-50 ms-3">
+                <i class="fa-brands fa-facebook"></i>
+              </li>
+              <li class="text-white-50 ms-3 me-3">
+                <i class="fa-brands fa-instagram"></i>
+              </li>
+              <li class="text-white-50 me-3">
+                <i class="fa-brands fa-twitter"></i>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script src="js/all.min.js"></script>
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="js/bootstrap.bundle.min.js.map"></script>
+    <script src="js/main.js" type="module"></script>
+  </body>
 </html>
