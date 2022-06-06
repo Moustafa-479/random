@@ -123,7 +123,7 @@ let icon = document.querySelector('.setting .parent .icon')
 icon.onclick = function () {
   if (content.classList.contains('true')) {
     content.classList.remove('true')
-    content.style.right = 'calc(100% - 32px)'
+    content.style.right = '100%'
   } else {
     content.style.right = '0'
     content.classList.add('true')
